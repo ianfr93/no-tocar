@@ -1,0 +1,2491 @@
+/*  configuraciones */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* -- Nombre: valor;
+--palabrauno-palabrados:valor; */
+    --color-principal: #1F242C;
+    --color-main: #292E36;
+    --color-Secundario: #af8546;
+    --color-Terciario: #4CAF50;
+    --color-hover-whatsapp: #248e27;
+    --color-cuarto: #ffffff;
+    --color-Bordes: #E1B168;
+    --color-logo: #B43123;
+    --box-shadow: #000;
+    --color-Botton-correo: #0072c6;
+    --button-principal: #E1B168;
+    --button-cancel: #B43123;
+    --button-disabled: #292E36;
+    --size-encabezados: 50px;
+    --size-parrafos: 16px;
+}
+
+.btn-primary {
+    background-color: var(--button-principal) !important;
+    border-color: var(--color-cuarto);
+    color: var(--color-cuarto);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-Secundario) !important;
+    border-color: var(--color-cuarto);
+    color: var(--color-cuarto);
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: var(--color-principal);
+    font-size: 1.2rem;
+
+    overflow-x: hidden;
+}
+
+/* fin configuraciones */
+
+/* responsive mobile */
+
+
+
+
+/* Estilos generales que se aplicarán a todos los tamaños de pantalla */
+.header {
+    display: block;
+    /* Muestra el header en general */
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 1300px) {
+
+
+.navbar-nav
+    .container-btn,
+    .iconos-1,
+    .iconos-2,
+    .bton-Whatsapp,
+    .navbar-nav {
+
+        display: none;
+    }
+}
+
+
+.header {
+    padding: 30px 20px;
+    background-color: var(--color-principal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar {
+    background-color: var(--color-principal) !important;
+    margin-top: -20px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.navbar-brand img {
+    margin-left: 130px;
+    width: 100%;
+}
+
+.navbar-toggler {
+    margin-top: 0px;
+    margin-left: 210px;
+
+}
+
+/* info principal */
+ .container-fluid-01 {
+    margin-top: auto;
+    margin-bottom: 20px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+main {
+    margin-top: 130px;
+    background-color: var(--color-principal);
+    width: 100%;
+    height: auto;
+}
+
+
+
+.img-fluid {
+    width: 80%;
+    border-radius: 10px;
+    margin: 10% auto;
+    margin-bottom: 20px;
+    margin-top: 0%;
+
+}
+
+
+/* fin info principal */
+
+.container-fluid-02 {
+    background-image: url(../images/BG/BG-info-local.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: auto;
+    margin-bottom: 20px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.container-fluid-03 {
+    background-image: url(../images/BG/BG-top-10.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: auto;
+    height: auto;
+    padding: 20px;
+}
+
+.contenedor-info-local {
+    text-align: center;
+
+}
+
+.info-ico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.icon {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.icon img {
+    width: 50px;
+}
+
+.icon p {
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.info-local {
+    margin-top: 20px;
+}
+
+.info-local img {
+    margin-top: 10px;
+    width: 55%;
+    margin: 5%;
+    margin-bottom: 20px;
+
+}
+
+.info-text h2 {
+    margin-top: 2%;
+    color: var(--color-cuarto);
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 10%;
+    margin-bottom: 20px;
+}
+
+.info-text p {
+    text-align: center;
+    margin: 10%;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el título y subtítulo */
+.info-textos h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin: auto;
+    text-align: center;
+    margin-left: 90px;
+}
+
+.info-textos h4 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+.platos-10 img {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-bottom: 20px;
+}
+
+.info-top {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 90px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.info-top h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+.info-top p {
+    margin-bottom: 20px;
+    color: var(--color-principal);
+    width: 100%;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-container {
+    margin-top: 20px;
+}
+
+/* Estilos para el botón */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para el carrusel */
+.carousel-inner {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+/* Estilos para las imágenes del carrusel */
+.carousel-inner img {
+    width: 85% !important;
+    height: auto;
+    margin-left: 70px;
+}
+
+/* fin top-10 carousell */
+
+.container-banner-ubicacion img {
+    width: 100%;
+
+
+
+}
+
+.container-fluid-05 {
+    background-color: var(--color-cuarto);
+}
+
+.medios-de-pago img {
+    width: 100%;
+}
+
+
+.icon-ubicación {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    margin-top: 5005px;
+
+}
+
+.icon-ubicación i {
+    font-size: 130px;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+    z-index: 1;
+
+}
+
+.boton-container {
+    margin-bottom: 10px;
+
+}
+
+.mi-boton {
+    padding: 10px 20px;
+    background-color: var(--button-principal);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mi-boton:hover {
+    background-color: var(--color-Secundario);
+}
+
+
+
+
+.container-fluid-06 {
+
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin: 0;
+    background-image: url(../images/BG/BG-restaurant\.jpg);
+    padding-top: 50px;
+    z-index: 1;
+
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+
+}
+
+.clientes-info {
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.clientes-info img {
+    width: 60%;
+
+
+}
+
+.clientes-info h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.clientes-info p {
+    font-size: 1em;
+    margin: 0;
+}
+
+.tarjeta-1,
+.tarjeta-2,
+.tarjeta-3 {
+    width: 300px;
+    margin: 0 100px;
+    background-color: rgba(0, 0, 0, 0.528);
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tarjeta-1 img {
+    width: 35%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.tarjeta-2 img {
+    width: 35%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.tarjeta-3 img {
+    width: 35%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.contenido {
+    padding: 20px;
+}
+
+.contenido h2 {
+    font-size: 1em;
+}
+
+.contenido span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.contenido hr {
+    border: 1px solid white;
+    margin: 10px 0;
+}
+
+.contenido p {
+    font-size: 16px;
+    width: 70%;
+    text-align: center;
+    padding-top: 10px;
+    align-items: center;
+    margin: auto;
+
+}
+
+
+/* Estilos generales */
+.container-fluid-07 {
+
+    background-image: url(../images/BG/BG-restaurant\.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container-reserva {
+    padding: 3.5rem 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+
+
+}
+
+.container-reserva h2 {
+    margin-bottom: 20px;
+    color: var(--color-cuarto);
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+
+.field {
+    margin-bottom: 15px;
+    width: 100%;
+    margin-right: 10px;
+    background-color: transparent;
+    color: var(--color-cuarto);
+}
+
+
+.field-date {
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+input,
+select {
+    padding: 4px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+select {
+    height: 38px;
+    background-color: transparent;
+    color: var(--color-cuarto);
+
+}
+
+
+.submit button {
+    background-color: var(--color-logo);
+    color: var(--color-cuarto);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;/
+}
+
+.submit button:hover {
+    background-color: var(--color-Secundario);
+}
+
+.first-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.second-line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sections {
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.col-6 .container-fluid-08 {
+    background-color: var(--color-principal);
+    text-align: center;
+    padding: 0px 0;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin: 0;
+
+    padding-top: 10px;
+    z-index: 1;
+
+}
+
+.col-6 .contenedor-08-center {
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+/* Estilo general del footer */
+.col-6 .footer {
+    color: #fff;
+    padding: 30px 0;
+    background-color: var(--color-principal);
+   
+  
+}
+
+
+
+/* Estilo para las redes de contacto */
+
+
+.container-CSH {
+    text-align: center;
+    align-content: center;
+
+}
+
+
+.contacto h4 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contacto p {
+    color: var(--color-Bordes);
+    font-size: 16px;
+    margin: 5px 0;
+    line-height: 1.2;
+}
+
+.footer-subscribete {
+    margin-left: 3%;
+}
+
+.footer-subscribete h4 {
+    color: var(--color-cuarto);
+    font-size: 25px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-subscribete p {
+    color: #ccc;
+    font-size: 16px;
+    margin: 5px 0;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.subscribete-form {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.subscribete-form input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.subscribete-form button {
+    background-color: var(--button-principal);
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 300px;
+    border: none;
+    cursor: pointer;
+    margin-top: -55px;
+    border-radius: 2px;
+}
+
+.horarios h4 {
+    color: var(--color-cuarto);
+    font-size: 25px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+.horarios p {
+    color: var(--color-Bordes);
+    font-size: 16px;
+    margin: 5px 0;
+    line-height: 1.2;
+    text-align: center;
+    margin-left: 10px;
+}
+
+/* Estilo para la sección de copyright */
+.copyright span {
+    color: var(--color-cuarto);
+    text-align: center;
+    font-size: 14px;
+    max-width: 100%;
+}
+
+/* quienes somos mobile */
+
+.Imagen-banner img {
+max-width: 100%;
+}
+
+
+.quienes-somos h2, h3{
+    color: var(--color-cuarto);
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+    }
+
+
+/* fin responsive */
+
+
+
+
+/* // medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .info-ico {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3%;
+        align-items: center;
+        align-items: center;
+        margin-left: 70px;
+
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+    }
+
+    .icon img {
+        width: 50px;
+    }
+
+    .icon p {
+        margin: 0 10px;
+        font-size: 16px;
+    }
+
+    .info-local {
+        margin-top: 20px;
+    }
+
+    .info-local img {
+        margin-top: 10px;
+        width: 65%;
+        margin-left: 100px;
+
+    }
+
+    .info-text h2 {
+        margin-top: 2%;
+        margin-bottom: 0px;
+        color: var(--color-cuarto);
+        text-align: left;
+        margin-right: 40px;
+    }
+
+    .info-text p {
+        margin-top: 25px;
+        text-align: left;
+        margin-left: 100px;
+        width: 75%;
+
+    }
+
+    .btn {
+        margin-top: 5px;
+    }
+
+
+    .container-fluid-03 {
+        margin: auto;
+    }
+
+    /* Estilos para el título y subtítulo */
+    .info-textos h3 {
+        font-size: 2em;
+        margin-bottom: 10px;
+        margin: auto;
+        text-align: center;
+        color: var(--size-encabezados);
+    }
+
+    .info-textos h4 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Estilos para el contenedor del carrusel */
+    .container-top-10 {
+        margin-top: 20px;
+    }
+
+
+
+    /* Estilos para el carrusel */
+    .carousel-inner {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 70%;
+        margin: auto;
+        margin-top: 80px;
+
+    }
+
+    /* Estilos para las imágenes del carrusel */
+    .carousel-inner img {
+        width: 25% !important;
+        height: auto;
+    }
+
+    /* Estilos para las imágenes del carrusel */
+
+
+
+
+    /* Estilos para los botones de control del carrusel */
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: auto;
+
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 40px;
+        height: 50px;
+
+    }
+
+    /* Cambiar el color de los controles del carrusel */
+    .carousel-control-prev,
+    .carousel-control-next {
+
+        background-color: var(--color-logo);
+        /* Cambia #ffffff al color deseado para el icono */
+        width: 50px;
+        height: 50px;
+        margin-top: 160px;
+    }
+
+    /* Puedes ajustar el color del ícono de flecha con el siguiente selector */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        color: var(--color-logo);
+        /* Cambia #ffffff al color deseado para el icono de flecha */
+    }
+
+
+    /* Ajustes generales */
+    .platos-10 {
+        margin-left: auto;
+        /* Mueve el contenedor a la derecha */
+    }
+
+    .platos-10 img {
+        width: 80%;
+        /* Ajusta el tamaño de la imagen al 100% del contenedor */
+        border-radius: 10px;
+        margin-top: 150px;
+        margin-left: 150px;
+        margin-bottom: 120px;
+    }
+
+    .info-top {
+        text-align: left;
+        /* Alinea el texto a la izquierda */
+        margin-top: 130px;
+        /* Espaciado superior del texto */
+        margin-left: 300px;
+        /* Mueve el contenedor a la derecha */
+        width: 100%;
+        margin-bottom: 20px;
+        /* Espaciado inferior del párrafo */
+    }
+
+    .info-top h3 {
+        text-align: left;
+        margin-bottom: 10px;
+       
+        width: 100%;
+        margin-bottom: 20px;
+       
+    }
+
+    .info-top p {
+        margin-bottom: 20px;
+       
+        color: var(--color-principal);
+        width: 100%;
+        margin-left: 0px;
+
+    }
+
+    .btn-container {
+        margin-top: 20px;
+       
+    }
+
+    /* Estilos para el botón */
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+}
+
+
+
+.container-fluid-08 {
+   
+
+    padding-top: 10px;
+    z-index: 1;
+
+}
+
+.contenedor-08-center {
+    margin-left: 24%;
+    margin-top: 10px;
+}
+
+/* Estilo general del footer */
+.footer {
+    color: #fff;
+    padding: 30px 0;
+    background-color: var(--color-principal);
+}
+
+.col-md-12 .logo-footer img {
+max-width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+/* Estilo para las redes de contacto */
+.col-md-12 .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.container-CSH {
+    text-align: center;
+    align-content: center;
+}
+
+
+.contacto h4 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contacto p {
+    color: var(--color-Bordes);
+    font-size: 16px;
+    margin: 5px 0;
+    line-height: 1.2;
+}
+
+.footer-subscribete {
+    margin-left: 3%;
+}
+
+.footer-subscribete h4 {
+    color: var(--color-cuarto);
+    font-size: 25px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer-subscribete p {
+    color: #ccc;
+    font-size: 16px;
+    margin: 5px 0;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.subscribete-form {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.subscribete-form input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.subscribete-form button {
+    background-color: var(--button-principal);
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 300px;
+    border: none;
+    cursor: pointer;
+    margin-top: -55px;
+    border-radius: 2px;
+}
+
+.horarios h4 {
+    color: var(--color-cuarto);
+    font-size: 25px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+
+}
+
+.horarios p {
+    color: var(--color-Bordes);
+    font-size: 16px;
+    margin: 5px 0;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* Estilo para la sección de copyright */
+.copyright span {
+text-align: center;
+
+}
+
+
+@media (max-width: 767px) {
+    .info-local img {
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+
+
+/* // large devices (desktop, 992px and up) */
+@media (min-width: 992px) {
+
+    /* header */
+    .header {
+        padding: 30px 20px;
+        background-color: var(--color-principal);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .container-btn {
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+
+    }
+
+
+    .btn-support {
+        margin-left: 170px;
+        border: 1px solid var(--color-Bordes) !important;
+        background-color: transparent !important;
+        border-radius: 0px;
+    }
+
+    .btn-support:hover {
+        background-color: var(--color-Botton-correo) !important;
+        color: var(--color-cuarto);
+        border: 1px solid var(--color-cuarto) !important;
+
+    }
+
+    .bton-Whatsapp {
+
+        background-color: var(--button-principal) !important;
+        border-radius: 0px;
+        margin-right: 170px;
+    }
+
+    .bton-Whatsapp:hover {
+        background-color: var(--color-hover-whatsapp) !important;
+        color: var(--color-cuarto);
+    }
+
+    .navbar {
+        background-color: var(--color-principal) !important;
+        margin-top: 0px;
+        margin-left: 350px;
+    }
+
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+    }
+
+    .navbar-brand img {
+        margin-left: 30px;
+        width: 100%;
+    }
+
+    .iconos-1 {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .iconos-1 .nav-item {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .iconos-2 {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .iconos-2 .nav-item {
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+    }
+
+    .iconos-1,
+    .nav-link i,
+    .iconos-2,
+    .nav-link i {
+        color: #ffffff;
+    }
+
+    /* Estilos para el navbar */
+
+    .collapse .navbar-nav {
+        display: flex;
+        align-items: center;
+        margin-left: 170px;
+    }
+
+
+    .collapse .navbar-nav .nav-item {
+        margin-right: 30px;
+    }
+
+
+    .collapse .navbar-nav:last-child {
+        margin-left: 0px;
+    }
+
+
+    .collapse .navbar-nav:last-child .nav-item {
+        margin-left: 0px;
+    }
+
+    .nav-item span {
+        margin-left: 30px;
+    }
+
+    .navbar-nav.ml-auto {
+        margin-right: 20px;
+    }
+
+    /* fin header */
+
+    /* info principal */
+ .container-fluid-01 {
+        margin-top: auto;
+        margin-bottom: 20px;
+        height: auto;
+        padding-bottom: auto;
+
+    }
+
+    main {
+        margin-top: 100px;
+        background-color: var(--color-main);
+        width: 100%;
+        height: auto;
+    }
+
+    .col-lg-5 h1 {
+  
+  font-size: 50px;
+  margin-top: 40px;
+margin-left: 50px;
+
+text-align: left;
+
+      
+    }
+
+    .col-lg-5 p {
+        text-align: left;
+        margin: 10%;
+        margin-bottom: 20px;
+        line-height: 2.0;
+        width: 80%;
+
+      
+    }
+
+    .btn-primary {
+        background-color: var(--button-principal);
+        color: var(--color-cuarto);
+        margin: 1%;
+        margin-bottom: 20px;
+
+        @media (min-width: 768px) {
+            margin-right: 200px;
+        }
+    }
+
+    .col-lg-7 .img-fluid {
+        width: 78%;
+        border-radius: 10px;
+        margin: 10% auto;
+        margin-bottom: 20px;
+        margin-top: 0%;
+
+        @media (min-width: 768px) {
+            margin-left: 35%;
+            width: 50%;
+            margin-top: 1%;
+        }
+    }
+
+    .col-lg-7:hover .btn-secondary {
+        display: block;
+    }
+
+    /* fin info principal */
+
+    /* información local */
+
+    /* top-10 carousell */
+    .container-fluid-03 {
+        background-image: url(../images/BG/BG-top-10.jpg);
+        background-size: cover;
+        background-position: center;
+        margin-top: auto;
+        height: auto;
+        padding: 20px;
+
+    }
+/* // banner ubicacion */
+
+    /* Estilos para desktop */
+    .container-fluid-04 {
+
+        margin-top: auto;
+        padding: 0px;
+
+    }
+
+    .col-lg-12 .container-banner-ubicacion {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+    }
+
+    .col-lg-12 .container-banner-ubicacion img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .col-lg-12 .icon-ubicación {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+    }
+    
+    .col-lg-12 .icon-ubicación i {
+        font-size: 130px;
+        margin-bottom: 10px;
+    }
+    
+    .col-lg-12 .boton-container {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin-bottom: -50px;
+    }
+    
+    .col-lg-12 .mi-boton {
+        padding: 10px 20px;
+        background-color: var(--button-principal);
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    .col-lg-12 .mi-boton:hover {
+        background-color: var(--color-Secundario);
+    }
+    
+
+    /* fin banner ubicacion */
+
+    .container-fluid-05 {
+        margin-top: 0;
+    }
+
+    .container-medios-de-pagos {
+        background-color: var(--color-cuarto);
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 250px;
+    }
+
+    .medios-de-pago img {
+        width: 75%;
+        height: 100%;
+        object-fit: cover;
+        margin-left: 170px;
+        margin-top: 50px;
+
+
+    }
+
+    /* Estilos para el contenedor principal */
+    .container-fluid-06 {
+
+        text-align: center;
+        padding: 50px 0;
+        color: white;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        margin: 0;
+        background-image: url(../images/BG/BG-restaurant\.jpg);
+        padding-top: 50px;
+        z-index: 1;
+
+    }
+
+    .contenedor-tarjetas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .clientes-info {
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+    }
+
+    .clientes-info img {
+        width: 60%;
+
+
+    }
+
+    .clientes-info h2 {
+        font-size: 2em;
+        margin: 0;
+    }
+
+    .clientes-info p {
+        font-size: 1.2em;
+        margin: 0;
+    }
+
+    .tarjeta-1,
+    .tarjeta-2,
+    .tarjeta-3 {
+        width: 300px;
+        margin: 0 10px;
+        background-color: rgba(0, 0, 0, 0.528);
+        border-radius: 10px;
+        overflow: hidden;
+        display: inline-block;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .tarjeta-1 img {
+        width: 35%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    .tarjeta-2 img {
+        width: 35%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    .tarjeta-3 img {
+        width: 35%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    .contenido {
+        padding: 20px;
+    }
+
+    .contenido h2 {
+        font-size: 1.5em;
+    }
+
+    .contenido span {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 1em;
+    }
+
+    .contenido hr {
+        border: 1px solid white;
+        margin: 10px 0;
+    }
+
+    .contenido p {
+        font-size: 16px;
+        width: 70%;
+        text-align: center;
+        padding-top: 10px;
+        align-items: center;
+        margin: auto;
+
+    }
+
+    /* Estilos generales */
+    .container-fluid-07 {
+
+        background-image: url(../images/BG/BG-restaurant\.jpg);
+        background-size: cover;
+        background-position: center center;
+        padding: 0px 0px 0px 0px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .container-reserva {
+        padding: 3.5rem 0;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
+        background-size: cover;
+        background-position: center center;
+        text-align: center;
+
+
+    }
+
+    .container-reserva h2 {
+        margin-bottom: 20px;
+        color: var(--color-cuarto);
+
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        margin: auto;
+
+    }
+
+
+    .field {
+        margin-bottom: 15px;
+        width: 100%;
+        margin-right: 10px;
+        background-color: transparent;
+        color: var(--color-cuarto);
+    }
+
+
+    .field-date {
+        margin-bottom: 15px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    input,
+    select {
+        padding: 4px;
+        margin: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+
+    }
+
+    select {
+        height: 38px;
+        background-color: transparent;
+        color: var(--color-cuarto);
+
+    }
+
+
+    .submit button {
+        background-color: var(--color-logo);
+        color: var(--color-cuarto);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;/
+    }
+
+    .submit button:hover {
+        background-color: var(--color-Secundario);
+    }
+
+    .first-line {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .second-line {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .sections {
+        width: 30%;
+        margin-bottom: 15px;
+    }
+
+
+
+/** banner-video **/
+.contenedor-banner-video {
+    background-image: url(../images/Nuestra-carta/banner-video.jpg);
+    width: 100%;
+    max-width: 100%;
+}
+
+.banner-video {
+    max-width: 100%;
+    overflow: hidden;
+    height: 80vh;
+}
+
+video {
+    width: 100%;
+    max-width: 40px;
+    height: auto;
+    display: block;
+    min-height: 46.25vw;
+}
+
+video[poster] {
+    max-width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    margin-top: 180px;
+    background-color: rgba(0, 0, 0, 0.01);
+    width: 100%;
+}
+
+.overlay h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.overlay p {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/** fin banner-video **/
+
+/** tarjetas producto-info **/
+.contenedor-card {
+    background-image: url(../images/BG/BG-nuestra-carta.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 25px 0;
+    text-align: center;
+}
+
+/* Barra search */
+.contenedor-menu {
+    background-image: url(../images/BG/BG-nuestra-carta.jpg);
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+
+}
+
+.search-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 20px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+}
+
+i.fa-search {
+    font-size: 16px;
+    margin-left: -40px;
+}
+
+
+i.fa-search {
+    color: #000000;
+    cursor: pointer;
+}
+
+i.fa-search:hover {
+    color: #E1B168;
+}
+
+/* Fin Barra search */
+
+.menu-categorias {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+.menu-categorias li {
+    margin: 0 19px;
+}
+
+.menu-categorias a {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.202);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: 1px solid #fff;
+}
+
+
+
+.menu-categorias a:hover {
+    background-color: #E1B168;
+}
+
+
+select:focus {
+    border-color: #C09147;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.texto-card {
+    background-image: url(../images/BG/BG-nuestra-carta.jpg);
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+
+.card-info {
+    background-color: #B43123;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-info img {
+    width: 350px;
+    height: 220px;
+    border-radius: 5px 5px 0 0;
+}
+
+.card-info .contenido-tarjeta {
+    padding: 10px;
+}
+
+.card-info .contenido-tarjeta h3 {
+    margin: 0;
+    font-size: 25px;
+    color: #d7d7d7;
+}
+
+.card-info .contenido-tarjeta p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.pagination {
+    margin: 20px;
+}
+
+.pagination button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+button.prev,
+button.next {
+    background-color: #d7d7d7;
+    color: #000000;
+}
+
+button:hover {
+    background-color: #E1B168;
+}
+
+button.prev:hover,
+button.next:hover {
+    background-color: #B43123;
+}
+
+/** fin tarjetas producto-info **/
+
+
+
+
+/** quienes somos contenedor **/
+
+.texto-Quienes-somos {
+    background-color: #B43123;
+    background-image: url(../images/BG/BG-restaurant.jpg);
+
+    padding: 10px;
+    z-index: 2;
+    margin: 0px;
+    z-index: 2;
+}
+
+.texto-Quienes-somos::before {
+    content: "";
+    position: absolute;
+    top: 277px;
+    left: 0;
+    width: 100%;
+    height: 18%;
+    background-color: #B43123;
+    opacity: 0.4;
+
+    z-index: 1;
+}
+
+.texto-Quienes-somos h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    z-index: 2;
+}
+
+.texto-Quienes-somos p {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -10px;
+    z-index: 2;
+}
+
+.texto-Quienes-somos h1,
+.texto-Quienes-somos p {
+    position: relative;
+    z-index: 2;
+
+}
+
+.contenedor-quienes-somos {
+    background-image: url(../images/BG/BG-quienes-somos.jpg);
+    background-color: #1F242C;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    min-height: 10vh;
+    padding: 20px;
+}
+
+.quienes-somos h2 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    padding: 40px 0;
+    margin-top: -10px;
+}
+
+.quienes-somos h3 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    padding: -10px 0;
+    margin-top: -30px;
+    font-size: 23px;
+}
+
+.contenido-fondo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: #E1B168;
+}
+
+.Imagen-banner {
+    background-color: #000;
+    width: 100%;
+}
+
+.Imagen-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    min-height: 200px;
+}
+
+.quienes-somos p {
+    text-align: start;
+    margin: 30px auto;
+    font-size: 16px;
+    width: 80%;
+    line-height: 1.5;
+}
+
+/** fin quienes somos contenedor **/
+
+/** blog-img **/
+.contenedor-BG {
+    background-image: url(../images/BG/BG-restaurant.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    min-height: 15vh;
+    padding: 100px;
+    margin: 0;
+}
+
+.titulo-parrafo h3 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    margin-top: -50px;
+}
+
+.titulo-parrafo p {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    margin-top: -20px;
+}
+
+.contenedor-tarjetas-blog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tarjeta-blog {
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: calc(50% - 20px);
+    margin: 10px;
+    padding: 5px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta-blog img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.contenido-tarjeta h3 {
+    margin: 0;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.contenido-tarjeta p {
+    margin: 0;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/** Fin blog-img **/
+
+
+/** nuestros locales **/
+.loacales-BG {
+    background-image: url(../images/BG/BG-restaurant.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    min-height: 15vh;
+    padding: 100px;
+    margin: 0;
+}
+
+.contenedor-tarjetas-orden {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-tarjetas-contacto h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    margin-top: -90px;
+    font-size: 50px;
+}
+
+.contenedor-tarjetas-contacto p {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    margin-top: -30px;
+}
+
+.tarjeta-info {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: calc(75% - 10px);
+    margin: 0px;
+    padding: 0px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 215px;
+    max-width: 100%;
+}
+
+.imagen-tarjeta img {
+    width: 573px;
+    height: 100%;
+    margin-top: 5px;
+    object-fit: contain;
+    margin-left: 80px;
+}
+
+.detalle-tarjeta {
+    flex: 3;
+    padding: 20px;
+    text-align: left;
+}
+
+.detalle-tarjeta h3 {
+    margin: 20px 0 0;
+    font-size: 20px;
+    color: var(--size-encabezados);
+}
+
+
+.detalle-tarjeta p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #292E36;
+}
+
+.detalle-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.detalle-item i {
+    margin-right: 10px;
+    color: #E1B168;
+}
+
+/** fin nuestros locales **/
+
+
+/** formulario de contacto **/
+.contenedor-formulario-contacto {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.formulario-izquierda {
+    flex: 1;
+    background-color: #FFF8F5;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.contacto-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contacto-item i {
+    background-color: #000;
+    border-radius: 100%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.contacto-item i {
+    color: #fff;
+    font-size: 18px;
+}
+
+.sociales-iconos i {
+    margin-top: 20px;
+    color: #000000;
+    font-size: 28px;
+    margin-right: 30px;
+}
+
+.formulario-derecha {
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.formulario-derecha h2 {
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.campo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    width: 100%;
+    flex: 0 0 45%;
+    padding: 10px 15px;
+
+}
+
+.campo input[type="text"],
+.campo input[type="Nom"],
+.campo input[type="Email"],
+.campo input[type="Suje"],
+.campo input[type="Tel"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border: 1.5px solid #101A24;
+}
+
+.mensaje-texto {
+    width: 90%;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.mensaje-texto label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.mensaje-texto textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1.5px solid #101A24;
+    font-size: 16px;
+    resize: none;
+    margin-top: 0px;
+}
+
+.mensaje-texto textarea:focus {
+    border-color: #B43123;
+    outline: none;
+}
+
+.campo textarea {
+    width: 100%;
+    height: 100px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.label-input {
+    width: 100%;
+    padding: 40px 15px;
+}
+
+.textarea-input {
+    width: 80px;
+}
+
+.input {
+    width: 100px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.label-input {
+    margin-bottom: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.textarea-input {
+    height: 100%;
+
+}
+
+.botoncito-enviar {
+    text-align: left;
+    margin-top: 20px;
+    margin: 0;
+    padding-right: 12px;
+    padding: 10px;
+    margin-left: -8px;
+}
+
+.botoncito-enviar button {
+    display: block;
+    margin-top: 40px;
+    padding: 10px 100px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 18px;
+    background-color: #E1B168;
+    color: #fff;
+    border: 2px solid #E1B168;
+    transition: background-color 0.3s ease;
+    margin-left: 12px;
+}
+
+.botoncito-enviar button:hover {
+    background-color: #D19A4D;
+}
+
+/** fin formulario de contacto **/
+
+/** mapa **/
+
+.texto-contenedor {
+    padding: 10px;
+    z-index: 2;
+    margin: 0px;
+    background-image: url(../images/BG/BG-restaurant.jpg);
+
+}
+
+.texto-mapa h3 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+.texto-mapa p {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.container-maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.maps-iframe {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/** fin mapa **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .container-fluid-08 {
+        background-color: var(--color-principal);
+        text-align: center;
+        padding: 0px 0;
+        color: white;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        margin: 0;
+
+        padding-top: 10px;
+        z-index: 1;
+
+    }
+
+    .contenedor-08-center {
+        margin-left: 4%;
+        margin-top: 10px;
+    }
+
+    /* Estilo general del footer */
+    .footer {
+        color: #fff;
+        padding: 30px 0;
+        background-color: var(--color-principal);
+    }
+
+    .col-lg-12 .logo-footer img {
+        max-width: 15%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    /* Estilo para las redes de contacto */
+    .col-lg-12 .social-icons a {
+        color: #fff;
+        font-size: 24px;
+        margin: 0 10px;
+    }
+
+    .container-CSH {
+        text-align: center;
+        align-content: center;
+    }
+
+
+    .contacto h4 {
+        color: #fff;
+        font-size: 25px;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .contacto p {
+        color: var(--color-Bordes);
+        font-size: 16px;
+        margin: 5px 0;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    .footer-subscribete {
+        margin-left: 3%;
+    }
+
+    .footer-subscribete h4 {
+        color: var(--color-cuarto);
+        font-size: 25px;
+        margin-bottom: 20px;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .footer-subscribete p {
+        color: #ccc;
+        font-size: 16px;
+        margin: 5px 0;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .subscribete-form {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        margin-right: 50px;
+    }
+
+    .subscribete-form input {
+        flex: 1;
+        padding: 10px;
+        margin-right: 5px;
+    }
+
+    .subscribete-form button {
+        background-color: var(--button-principal);
+        color: #fff;
+        padding: 12px 25px;
+        margin-left: 300px;
+        border: none;
+        cursor: pointer;
+        margin-top: -57px;
+       
+   
+    }
+
+    .horarios h4 {
+        color: var(--color-cuarto);
+        font-size: 25px;
+        margin-bottom: 20px;
+        position: relative;
+        display: inline-block;
+        text-align: end;
+        margin-left: 100px;
+
+    }
+
+    .horarios p {
+        color: var(--color-Bordes);
+        font-size: 16px;
+        margin: 5px 0;
+        line-height: 1.2;
+        text-align: end;
+    }
+
+    /* Estilo para la sección de copyright */
+    .copyright span {
+        color: var(--color-cuarto);
+        text-align: center;
+
+    }
+}
+
+
+
+/* // X-large devices ( large desktop, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // Xx-large devices ( large desktop, 1400px and up) */
+@media (min-width: 1400px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** boton subir**/
+.subir {
+    height: 40px;
+    width: 40px;
+    background-color: var(--button-principal);
+    color: var(--button-principal);
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    text-align: center;
+    font-size: 28px;
+    line-height: 40px;
+    border-radius: 1%;
+    box-shadow: 2px 2px 5px #000;
+    z-index: 3;
+
+}
+
+.subir svg {
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: 20px;
+    transform: translateX(-15%);
+
+}
