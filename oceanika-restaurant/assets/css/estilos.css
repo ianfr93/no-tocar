@@ -45,17 +45,14 @@
 
 .navbar-brand {
   letter-spacing: -1.20px;
-  font-family: Caveat;
   font-size: 30px;
   text-shadow: 0.50px 0.50px 1px black;
 }
 
-.nav-link {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 
 .navbar {
-  background-color: #02cf69 !important;
+  background-color: var(--color-principal)!important;
 
 }
 
@@ -318,15 +315,22 @@
 /* footer-------------------------------------------------------------------------------------------------- */
 
 footer {
-  background-color: #02cf69 !important;
+  background-color: var(--color-principal) !important;
 }
 
-footer,
-h1 {
-  font-size: 15px;
+footer img{
+  width: 300px;
+  margin-top: 30px;
+}
+
+footer, h4 {
+
   text-align: center;
-  font-family: Caveat;
-  font-size: 22px;
+}
+
+footer, p {
+ 
+  text-align: center;
 }
 
 .footer-contacto {
