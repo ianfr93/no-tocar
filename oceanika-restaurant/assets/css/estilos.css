@@ -323,6 +323,13 @@ footer img{
   margin-top: 30px;
 }
 
+footer, .social-icons a {
+  color: var(--color-cuarto);
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+
 footer, h4 {
 
   text-align: center;
@@ -337,6 +344,30 @@ footer, p {
   margin-top: 150px;
   width: 100%;
 }
+
+.subscribete-form {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin: 0;
+}
+
+.subscribete-form input {
+  width: 75%; 
+  box-sizing: border-box; 
+  padding: 10px;
+  margin-bottom: 10px; 
+}
+
+.subscribete-form button {
+  background-color: var(--button-principal);
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+
+}
+
 
 /* media queries----------------------------------------------------------------------------------------------- */
 
