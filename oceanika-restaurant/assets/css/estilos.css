@@ -1,14 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Roboto:ital,wght@1,700&display=swap');
-
+/*  configuraciones */
 * {
-  margin: 0%;
-  padding: 0%;
   box-sizing: border-box;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
+:root {
+  /* -- Nombre: valor;
+--palabrauno-palabrados:valor; */
+  --color-principal: #1F242C;
+  --color-main: #292E36;
+  --color-Secundario: #af8546;
+  --color-Terciario: #4CAF50;
+  --color-hover-whatsapp: #248e27;
+  --color-cuarto: #ffffff;
+  --color-Bordes: #E1B168;
+  --color-logo: #B43123;
+  --box-shadow: #000;
+  --color-Botton-correo: #0072c6;
+  --button-principal: #E1B168;
+  --button-cancel: #B43123;
+  --button-disabled: #292E36;
+  --size-encabezados: 50px;
+  --size-parrafos: 16px;
+}
+
+
 .post-header {
-  background-color: #02cf69 !important;
+  background-color: var(--color-principal) !important;
 }
 
 .redes-sociales a i {
