@@ -92,17 +92,18 @@ text-align: left;
  margin: 60px;
  text-align: left;
  line-height: 1.6;
+ font-size: 16px;
  }
  
 
 .container-fluid-01 img{
- width: 60%;
+ width: 50%;
  margin-bottom: 40px;
+ margin-left: 35%;
 
 }
 .container-fluid-02 {
   background-image: url(../images/BG/BG-info-local.jpg);
-  background-size: cover;
   background-position: center;
   width: 100%;
 }
@@ -189,9 +190,7 @@ margin-top: 30px;
   margin: auto;
   margin-top: 80px;
 
-
 }
-
 .carousel-inner img {
   width: 25% !important;
   height: auto;
@@ -260,8 +259,62 @@ margin-top: 30px;
 
 }
 
+/* // banner ubicacion */
+  .container-fluid-04 {
+
+      margin-top: auto;
+      padding: 0px;
+
+  }
+
+ .container-banner-ubicacion {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      height: auto;
+
+  }
+
+ 
+
+.container-banner-ubicacion img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  .icon-ubicación {
+    position: absolute;
+    top: 2890px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .icon-ubicación i {
+    font-size: 130px;
+    margin-bottom: 10px;
+  }
+  
+/* fin banner ubicacion */
+.container-medios-de-pagos {
+  background-color: var(--color-cuarto);
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+}
+
+.medios-de-pago img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 100px;
+  margin-top: 50px;
 
 
+}
 
 
 
@@ -818,6 +871,13 @@ footer p {
 
 @media screen and (min-width:320px) and (max-width:575px) {
 
+  .container-fluid-01 img{
+   
+    margin-left: 0;
+    margin-bottom: 40px;
+   
+   }
+
 
 
   .container-fluid-02 .info-ico{
@@ -860,6 +920,96 @@ margin-top: -80px;
   margin-bottom: 50px;
   margin-left: 100px;
   height: auto;
+
+}
+
+.container-top-10{
+  width: 100%;
+}
+/* Estilos para el carrusel */
+.carousel-inner {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 70%;
+  margin: auto;
+  margin-top: 80px;
+
+
+}
+
+.carousel-inner img {
+  width: 100% !important;
+  height: auto;
+}
+
+
+
+ .carousel-control-prev{
+  margin-left: 20px;
+
+ }
+ .carousel-control-next {
+  margin-right: 20px;
+  
+ }
+
+  .platos-10 {
+    margin-left: auto;
+
+}
+
+.platos-10 img {
+  margin-top: 20px; /* Ajusta el margen superior para versiones móviles */
+  margin-bottom: 20px;
+}
+
+.info-top {
+  margin-top: 20px; /* Ajusta el margen superior para versiones móviles */
+  margin-left: auto;
+  margin-right: auto; /* Centra el contenido horizontalmente */
+}
+.info-top h3{
+  text-align: center;
+}
+.info-top p{
+  text-align: center;
+  font-size: 16;
+}
+
+.btn-container{
+  text-align: center;
+}
+
+.container-banner-ubicacion {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+}
+
+.container-banner-ubicacion img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.icon-ubicación {
+  position:absolute;
+  top: 545%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+
+}
+
+.medios-de-pago img {
+
+width: 60%;
+  object-fit: cover;
+  margin-left: 100px;
+  margin-top: 40px;
+
 
 }
 
