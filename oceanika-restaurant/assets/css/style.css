@@ -63,7 +63,7 @@ body {
 }
 
 /* Estilos específicos para dispositivos móviles */
-@media (max-width: 1300px) {
+@media (max-width: 900px) {
 
 
 .navbar-nav
@@ -1182,7 +1182,9 @@ text-align: center;
     .navbar-nav.ml-auto {
         margin-right: 20px;
     }
-
+.nav-sociales{
+    color: var(--color-cuarto);
+}
     /* fin header */
 
     /* info principal */
