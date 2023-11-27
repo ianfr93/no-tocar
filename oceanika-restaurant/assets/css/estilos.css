@@ -111,7 +111,7 @@
 .iconos-1 .nav-item {
   display: flex;
   align-items: center;
-  margin-right: 10px;
+  margin-right: 40px;
 }
 
 .iconos-2 {
@@ -361,7 +361,6 @@ margin-top: 30px;
     margin-left: 0px;
 
 }
-
 /* // banner ubicacion */
   .container-fluid-04 {
 
@@ -1397,6 +1396,150 @@ width: 60%;
   margin-left: 100px;
   margin-top: 40px;
 }
+
+
+
+
+
+.contenedor-nuestros-clientes {
+  text-align: center;
+  padding: 50px 0;
+  color: var(--color-cuarto);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin: 0;
+  background-image: url(../images/BG/BG-restaurant\.jpg);
+  padding-top: 50px;
+  z-index: 1;
+
+}
+.contenedor-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+
+}
+
+.clientes-info {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.clientes-info img {
+  width: 50%;
+}
+
+.clientes-info h2 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.clientes-info p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.tarjeta-1,
+.tarjeta-2,
+.tarjeta-3 {
+  width: 300px;
+  margin: 0 10px;
+  background-color: rgba(0, 0, 0, 0.528);
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tarjeta-1 img,
+.tarjeta-2 img,
+.tarjeta-3 img{
+  width: 35%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.contenido {
+  padding: 20px;
+}
+
+.contenido h2 {
+  font-size: 1.5em;
+}
+
+.contenido span {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.contenido hr {
+  border: 1px solid white;
+  margin: 10px 0;
+}
+
+.contenido p {
+  font-size: 16px;
+  width: 70%;
+  text-align: center;
+  padding-top: 10px;
+  align-items: center;
+  margin: auto;
+}
+
+/* Estilos generales */
+.reservaciónes {
+
+  background-image: url(../images/BG/BG-restaurant\.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding: 0px 0px 0px 0px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container-reserva {
+  padding: 1.9rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+
+
+}
+
+.container-reserva h2 {
+  margin-bottom: 20px;
+  color: var(--color-cuarto);
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
