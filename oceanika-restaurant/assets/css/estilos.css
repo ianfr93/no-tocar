@@ -76,6 +76,44 @@
   text-shadow: 2px 2px 2px black;
 }
 
+
+.container-fluid-01{
+  background-color: var(--color-main);
+
+}
+
+.container-fluid-01 h1{
+ font-size: 50px;
+margin: 60px;
+text-align: left;
+}
+
+.container-fluid-01 p{
+ margin: 60px;
+ text-align: left;
+ line-height: 1.6;
+ }
+ 
+
+.container-fluid-01 img{
+ width: 60%;
+ margin-bottom: 40px;
+
+}
+.container-fluid-02{
+  background-image: url(../images/BG/BG-info-local.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin-bottom: 40px;
+ 
+ }
+.container-fluid-02 img{
+  width: 70px;
+  margin-bottom: 40px;
+ 
+ }
+
 .contenedor-banner {
   margin-top: 10px;
   margin-bottom: 15px;
@@ -316,33 +354,46 @@
 
 footer {
   background-color: var(--color-principal) !important;
+  text-align: center;
 }
 
 footer img{
-  width: 300px;
+  width: 250px;
   margin-top: 30px;
+
+
 }
 
-footer, .social-icons a {
+footer .social-icons a {
   color: var(--color-cuarto);
   font-size: 24px;
   margin: 0 10px;
 }
 
 
-footer, h4 {
-
+ footer h4 {
+  margin-bottom: 0; 
   text-align: center;
+  color: var(--color-cuarto);
+  font-size: 22px;
+
+
+
 }
 
-footer, p {
- 
+footer p {
+ color: var(--color-Bordes);
   text-align: center;
+ font-size: 16px;
+
 }
 
 .footer-contacto {
   margin-top: 150px;
   width: 100%;
+}
+.footer .copyright{
+  margin-bottom: 20px;
 }
 
 .subscribete-form {
@@ -353,7 +404,7 @@ footer, p {
 }
 
 .subscribete-form input {
-  width: 75%; 
+  width: 70%; 
   box-sizing: border-box; 
   padding: 10px;
   margin-bottom: 10px; 
@@ -622,4 +673,31 @@ footer, p {
   .container-de-inversiones h5 {
     font-size: 12px;
   }
+}
+
+
+/** boton subir**/
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: var(--button-principal);
+  color: var(--button-principal);
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 40px;
+  border-radius: 1%;
+  box-shadow: 2px 2px 5px #000;
+  z-index: 3;
+
+}
+
+.subir svg {
+  margin-top: 0px;
+  margin-left: 5px;
+  font-size: 20px;
+  transform: translateX(-15%);
+
 }
