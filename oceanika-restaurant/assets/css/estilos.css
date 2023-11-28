@@ -1016,6 +1016,69 @@ footer p {
 
 @media screen and (min-width:500px) and (max-width:770px) {
 
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-btn {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+.navbar-brand img {
+    margin-left: 130px;
+    margin-top: -200px;
+  
+  }
+
+  .btn-support{
+ 
+    margin: 10px 0;
+    margin-top: 70px;
+  }
+  .bton-Whatsapp {
+    margin: 10px 0;
+  }
+
+  .iconos-1,
+  .iconos-2 {
+    margin-right: 0;
+    margin-top: 0px;
+  }
+
+  .iconos-1 .nav-item,
+  .iconos-2 .nav-item {
+    margin-right: 10px;
+  }
+
+  .navbar-toggler {
+    margin-left: 210px;
+    margin-right: auto;
+    display: block;
+    margin-top: -35px;
+  }
+  
+  .navbar-navegación {
+    width: 47%;
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .navbar-navegación li {
+    margin-bottom: 10px;
+ 
+  }
+
+  .nav-sociales ul {
+margin-top: 20px;
+    margin-left: 195px;
+
+  }
+
   .galeria-de-imagenes-grid {
 
     display: grid;
@@ -1068,6 +1131,68 @@ footer p {
 }
 
 @media screen and (min-width:770px) and (max-width:1050px) {
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-btn {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+.navbar-brand img {
+    margin-left: 400px;
+    margin-top: -200px;
+  
+  }
+
+  .btn-support{
+ 
+    margin: 10px 0;
+    margin-top: 70px;
+  }
+  .bton-Whatsapp {
+    margin: 10px 0;
+  }
+
+  .iconos-1,
+  .iconos-2 {
+    margin-right: 0;
+    margin-top: 0px;
+  }
+
+  .iconos-1 .nav-item,
+  .iconos-2 .nav-item {
+    margin-right: 10px;
+  }
+
+  .navbar-toggler {
+    margin-left: 210px;
+    margin-right: auto;
+    display: block;
+    margin-top: -35px;
+  }
+  
+  .navbar-navegación {
+    width: 710px;
+
+    margin-top: -35px;
+  
+  
+  }
+
+  .navbar-navegación li {
+    margin-bottom: 10px;
+ 
+  }
+
+  .nav-sociales ul {
+margin-top: 20px;
+margin: 0;
+text-align: center;
+
+  }
 
   .galeria-de-imagenes-grid {
 
@@ -1249,23 +1374,11 @@ margin-top: 20px;
   }
   
 
-
-
-
-
-
-
-
-
-
   .container-fluid-01 img{
-   
-    margin-left: 0;
-    margin-bottom: 40px;
+   margin-left: 0;
+  margin-bottom: 40px;
    
    }
-
-
 
   .container-fluid-02 .info-ico{
     display: flex;
@@ -1320,29 +1433,21 @@ margin-top: -80px;
   width: 70%;
   margin: auto;
   margin-top: 80px;
-
-
 }
 
 .carousel-inner img {
   width: 100% !important;
   height: auto;
 }
-
-
-
- .carousel-control-prev{
+.carousel-control-prev{
   margin-left: 20px;
 
  }
  .carousel-control-next {
   margin-right: 20px;
-  
- }
-
-  .platos-10 {
+  }
+.platos-10 {
     margin-left: auto;
-
 }
 
 .platos-10 img {
@@ -1397,130 +1502,6 @@ width: 60%;
   margin-top: 40px;
 }
 
-
-
-
-
-.contenedor-nuestros-clientes {
-  text-align: center;
-  padding: 50px 0;
-  color: var(--color-cuarto);
-
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-
-  margin: 0;
-  background-image: url(../images/BG/BG-restaurant\.jpg);
-  padding-top: 50px;
-  z-index: 1;
-
-}
-.contenedor-tarjetas {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  margin: 0;
-
-}
-
-.clientes-info {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.clientes-info img {
-  width: 50%;
-}
-
-.clientes-info h2 {
-  font-size: 2em;
-  margin: 0;
-}
-
-.clientes-info p {
-  font-size: 1.2em;
-  margin: 0;
-}
-
-.tarjeta-1,
-.tarjeta-2,
-.tarjeta-3 {
-  width: 300px;
-  margin: 0 10px;
-  background-color: rgba(0, 0, 0, 0.528);
-  border-radius: 10px;
-  overflow: hidden;
-  display: inline-block;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.tarjeta-1 img,
-.tarjeta-2 img,
-.tarjeta-3 img{
-  width: 35%;
-  height: auto;
-  border-radius: 10px;
-  margin-top: 30px;
-}
-.contenido {
-  padding: 20px;
-}
-
-.contenido h2 {
-  font-size: 1.5em;
-}
-
-.contenido span {
-  display: block;
-  margin-bottom: 10px;
-  font-size: 1em;
-}
-
-.contenido hr {
-  border: 1px solid white;
-  margin: 10px 0;
-}
-
-.contenido p {
-  font-size: 16px;
-  width: 70%;
-  text-align: center;
-  padding-top: 10px;
-  align-items: center;
-  margin: auto;
-}
-
-/* Estilos generales */
-.reservaciónes {
-
-  background-image: url(../images/BG/BG-restaurant\.jpg);
-  background-size: cover;
-  background-position: center center;
-  padding: 0px 0px 0px 0px;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-}
-
-.container-reserva {
-  padding: 1.9rem 0;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
-  background-size: cover;
-  background-position: center center;
-  text-align: center;
-
-
-}
-
-.container-reserva h2 {
-  margin-bottom: 20px;
-  color: var(--color-cuarto);
-
-}
-
 form {
   display: flex;
   flex-direction: column;
@@ -1529,18 +1510,6 @@ form {
   margin: auto;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
 
