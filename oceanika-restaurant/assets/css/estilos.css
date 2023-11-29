@@ -852,8 +852,7 @@ footer p {
 
 
 /* media queries----------------------------------------------------------------------------------------------- */
-@media screen and (min-width:901px) and (max-width:1050px){
-
+@media screen and (min-width:1050px)and (max-width:1202px){
   .header {
     flex-direction: column;
     align-items: center;
@@ -863,17 +862,17 @@ footer p {
     margin-right: 0;
     margin-top: 10px;
   }
-.navbar-brand img {
-    margin-left: 260px;
+
+  .navbar-brand img {
+    margin-left: 400px;
     margin-top: -180px;
-  
   }
 
-  .btn-support{
- 
+  .btn-support {
     margin: 10px 0;
     margin-top: 30px;
   }
+
   .bton-Whatsapp {
     margin: 10px 0;
   }
@@ -889,20 +888,61 @@ footer p {
     margin-right: 10px;
   }
 
+  .container-fluid-01 img{
+    width: 80%;
+    margin-bottom: 40px;
+    margin-left: 1%;
+   
+   }
+
+   .container-fluid-02 .info-ico{
+    display:flex;
+   }
+  .container-fluid-02 img {
+    width: 40px;
+    margin: 0 125px; 
+  
+  }
+  
+  .container-fluid-02 p {
+  font-size: 16px;
+  margin-left: 40px;
+  width: 65%;
+  text-align: center;
+  margin-top: 20px;
+
+  }
+.info-text .btn-container{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  }
+
+
+  
   .navbar-navegación {
-    width: 700px;
-     margin-top: -55px;
-     margin-left: 0px;
-     transform: translateX(-20%);
- }
-.nav-sociales ul {
-    margin-top: 10px;
-      transform: translateX(-430%);
+    width: 100%;
+    margin-top: -70px; 
+  
+    align-items: center;
+  }
+
+  .nav-sociales ul {
+    margin-top: 30px;
+   margin-left: -20px;
+   transform: translate(-280%);
     
   }
+
+
+  /* // banner ubicacion */
+  .icon-ubicación {
+    top: 2980px;
+   }
+
+
 }
 
-@media screen and (min-width:768px) and (max-width:900px) {
+@media screen and (min-width:768px) and (max-width:1049px) {
 
   .header {
     flex-direction: column;
@@ -913,17 +953,17 @@ footer p {
     margin-right: 0;
     margin-top: 10px;
   }
-.navbar-brand img {
-    margin-left: 260px;
+
+  .navbar-brand img {
+    margin-left: 265px;
     margin-top: -180px;
-  
   }
 
-  .btn-support{
- 
+  .btn-support {
     margin: 10px 0;
     margin-top: 30px;
   }
+
   .bton-Whatsapp {
     margin: 10px 0;
   }
@@ -939,16 +979,29 @@ footer p {
     margin-right: 10px;
   }
 
+  .navbar-toggler {
+    margin-left: 345px; 
+  
+    margin-top: -40px;
+  }
+  
   .navbar-navegación {
-    width: 700px;
-     margin-top: -55px;
-     margin-left: 0px;
-     transform: translateX(-20%);
- }
-.nav-sociales ul {
+    width: 100%;
+    margin-top: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-sociales ul {
     margin-top: 10px;
-      transform: translateX(-430%);
+   margin-left: 330px;
     
+  }
+  
+  .navbar-navegación li {
+    margin-bottom: 10px; 
+    margin-right:250px
   }
   .container-fluid-01 img{
     width: 40%;
