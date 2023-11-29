@@ -605,6 +605,755 @@ select {
 }
 
 
+
+/** banner-video **/
+.contenedor-banner-video {
+  background-image: url(../images/Nuestra-carta/banner-video.jpg);
+  width: 100%;
+  max-width: 100%;
+}
+
+.banner-video {
+  max-width: 100%;
+  overflow: hidden;
+  height: 80vh;
+}
+
+video {
+  width: 100%;
+  max-width: 40px;
+  height: auto;
+  display: block;
+  min-height: 46.25vw;
+}
+
+video[poster] {
+  max-width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  margin-top: 180px;
+  background-color: rgba(0, 0, 0, 0.01);
+  width: 100%;
+}
+
+.overlay h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.overlay p {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/** fin banner-video **/
+
+/** tarjetas producto-info **/
+.contenedor-card {
+  background-image: url(../images/BG/BG-nuestra-carta.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 25px 0;
+  text-align: center;
+}
+
+/* Barra search */
+.contenedor-menu {
+  background-image: url(../images/BG/BG-nuestra-carta.jpg);
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+
+}
+
+.search-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  padding: 20px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+}
+
+i.fa-search {
+  font-size: 16px;
+  margin-left: -40px;
+}
+
+
+i.fa-search {
+  color: #000000;
+  cursor: pointer;
+}
+
+i.fa-search:hover {
+  color: #E1B168;
+}
+
+/* Fin Barra search */
+
+.menu-categorias {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+
+.menu-categorias li {
+  margin: 0 19px;
+}
+
+.menu-categorias a {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.202);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  border: 1px solid #fff;
+}
+
+
+
+.menu-categorias a:hover {
+  background-color: #E1B168;
+}
+
+
+select:focus {
+  border-color: #C09147;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.texto-card {
+  background-image: url(../images/BG/BG-nuestra-carta.jpg);
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+
+.card-info {
+  background-color: #B43123;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  height: auto;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card-info img {
+  width: 350px;
+  height: 220px;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-info .contenido-tarjeta {
+  padding: 10px;
+}
+
+.card-info .contenido-tarjeta h3 {
+  margin: 0;
+  font-size: 25px;
+  color: #d7d7d7;
+}
+
+.card-info .contenido-tarjeta p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.pagination {
+  margin: 20px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+button.prev,
+button.next {
+  background-color: #d7d7d7;
+  color: #000000;
+}
+
+button:hover {
+  background-color: #E1B168;
+}
+
+button.prev:hover,
+button.next:hover {
+  background-color: #B43123;
+}
+
+/** fin tarjetas producto-info **/
+
+
+
+
+/** quienes somos contenedor **/
+
+.texto-Quienes-somos {
+  background-color: #B43123;
+  background-image: url(../images/BG/BG-restaurant.jpg);
+
+  padding: 10px;
+  z-index: 2;
+  margin: 0px;
+  z-index: 2;
+}
+
+.texto-Quienes-somos::before {
+  content: "";
+  position: absolute;
+  top: 277px;
+  left: 0;
+  width: 100%;
+  height: 18%;
+  background-color: #B43123;
+  opacity: 0.4;
+
+  z-index: 1;
+}
+
+.texto-Quienes-somos h1 {
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  z-index: 2;
+}
+
+.texto-Quienes-somos p {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: -10px;
+  z-index: 2;
+}
+
+.texto-Quienes-somos h1,
+.texto-Quienes-somos p {
+  position: relative;
+  z-index: 2;
+
+}
+
+.contenedor-quienes-somos {
+  background-image: url(../images/BG/BG-quienes-somos.jpg);
+  background-color: #1F242C;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  min-height: 10vh;
+  padding: 20px;
+}
+
+.quienes-somos h2 {
+  color: #ffffff;
+  text-align: center;
+  margin: 0px;
+  padding: 40px 0;
+  margin-top: -10px;
+}
+
+.quienes-somos h3 {
+  color: #ffffff;
+  text-align: center;
+  margin: 0px;
+  padding: -10px 0;
+  margin-top: -30px;
+  font-size: 23px;
+}
+
+.contenido-fondo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background-color: #E1B168;
+}
+
+.Imagen-banner {
+  background-color: #000;
+  width: 100%;
+}
+
+.Imagen-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  min-height: 200px;
+}
+
+.quienes-somos p {
+  text-align: start;
+  margin: 30px auto;
+  font-size: 16px;
+  width: 80%;
+  line-height: 1.5;
+}
+
+/** fin quienes somos contenedor **/
+
+/** blog-img **/
+.contenedor-BG {
+  background-image: url(../images/BG/BG-restaurant.jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  min-height: 15vh;
+  padding: 100px;
+  margin: 0;
+}
+
+.titulo-parrafo h3 {
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  margin-top: -50px;
+}
+
+.titulo-parrafo p {
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  margin-top: -20px;
+}
+
+.contenedor-tarjetas-blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tarjeta-blog {
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: calc(50% - 20px);
+  margin: 10px;
+  padding: 5px;
+  margin-top: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta-blog img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.contenido-tarjeta h3 {
+  margin: 0;
+  font-size: 25px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.contenido-tarjeta p {
+  margin: 0;
+  font-size: 16px;
+  padding: 10px;
+}
+
+/** Fin blog-img **/
+
+
+/** nuestros locales **/
+.loacales-BG {
+  background-image: url(../images/BG/BG-restaurant.jpg);
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  min-height: 15vh;
+  padding: 100px;
+  margin: 0;
+}
+
+.contenedor-tarjetas-orden {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-tarjetas-contacto h1 {
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  margin-top: -90px;
+  font-size: 50px;
+}
+
+.contenedor-tarjetas-contacto p {
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  margin-top: -30px;
+}
+
+.tarjeta-info {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: calc(75% - 10px);
+  margin: 0px;
+  padding: 0px;
+  margin-top: 40px;
+  box-sizing: border-box;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 215px;
+  max-width: 100%;
+}
+
+.imagen-tarjeta img {
+  width: 573px;
+  height: 100%;
+  margin-top: 5px;
+  object-fit: contain;
+  margin-left: 80px;
+}
+
+.detalle-tarjeta {
+  flex: 3;
+  padding: 20px;
+  text-align: left;
+}
+
+.detalle-tarjeta h3 {
+  margin: 20px 0 0;
+  font-size: 20px;
+  color: var(--size-encabezados);
+}
+
+
+.detalle-tarjeta p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #292E36;
+}
+
+.detalle-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.detalle-item i {
+  margin-right: 10px;
+  color: #E1B168;
+}
+
+/** fin nuestros locales **/
+
+
+/** formulario de contacto **/
+.contenedor-formulario-contacto {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.formulario-izquierda {
+  flex: 1;
+  background-color: #FFF8F5;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.contacto-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contacto-item i {
+  background-color: #000;
+  border-radius: 100%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.contacto-item i {
+  color: #fff;
+  font-size: 18px;
+}
+
+.sociales-iconos i {
+  margin-top: 20px;
+  color: #000000;
+  font-size: 28px;
+  margin-right: 30px;
+}
+
+.formulario-derecha {
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+
+.formulario-derecha h2 {
+  color: #000000;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.campo {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  width: 100%;
+  flex: 0 0 45%;
+  padding: 10px 15px;
+
+}
+
+.campo input[type="text"],
+.campo input[type="Nom"],
+.campo input[type="Email"],
+.campo input[type="Suje"],
+.campo input[type="Tel"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border: 1.5px solid #101A24;
+}
+
+.mensaje-texto {
+  width: 90%;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+
+.mensaje-texto label {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.mensaje-texto textarea {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 1.5px solid #101A24;
+  font-size: 16px;
+  resize: none;
+  margin-top: 0px;
+}
+
+.mensaje-texto textarea:focus {
+  border-color: #B43123;
+  outline: none;
+}
+
+.campo textarea {
+  width: 100%;
+  height: 100px;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.label-input {
+  width: 100%;
+  padding: 40px 15px;
+}
+
+.textarea-input {
+  width: 80px;
+}
+
+.input {
+  width: 100px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.label-input {
+  margin-bottom: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.textarea-input {
+  height: 100%;
+
+}
+
+.botoncito-enviar {
+  text-align: left;
+  margin-top: 20px;
+  margin: 0;
+  padding-right: 12px;
+  padding: 10px;
+  margin-left: -8px;
+}
+
+.botoncito-enviar button {
+  display: block;
+  margin-top: 40px;
+  padding: 10px 100px;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 18px;
+  background-color: #E1B168;
+  color: #fff;
+  border: 2px solid #E1B168;
+  transition: background-color 0.3s ease;
+  margin-left: 12px;
+}
+
+.botoncito-enviar button:hover {
+  background-color: #D19A4D;
+}
+
+/** fin formulario de contacto **/
+
+/** mapa **/
+
+.texto-contenedor {
+  padding: 10px;
+  z-index: 2;
+  margin: 0px;
+  background-image: url(../images/BG/BG-restaurant.jpg);
+
+}
+
+.texto-mapa h3 {
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #ffffff;
+}
+
+.texto-mapa p {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.container-maps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+.maps-iframe {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/** fin mapa **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .contenedor-banner {
   margin-top: 10px;
   margin-bottom: 15px;
