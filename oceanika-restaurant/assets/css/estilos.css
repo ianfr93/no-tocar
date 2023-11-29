@@ -1,8 +1,12 @@
-/*  configuraciones */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden; /* Esto ocultará el scroll horizontal */
 }
 
 :root {
@@ -198,7 +202,6 @@ text-align: left;
  font-size: 16px;
  }
  
-
 .container-fluid-01 img{
  width: 50%;
  margin-bottom: 40px;
@@ -228,8 +231,6 @@ text-align: left;
   margin: 0; 
   vertical-align: middle; 
 }
-
-
 .contenedor-info-02{
   background-image: url(../images/BG/BG-info-local.jpg);
   background-size: cover;
@@ -237,8 +238,6 @@ text-align: left;
   width: 100%;
   display: flex;
 }
-
-
 .info-local {
   flex: 1; 
 }
@@ -304,7 +303,6 @@ margin-top: 30px;
      width: 40px;
      height: 50px;
      color: var(--color-logo);
- 
 }
 
  .carousel-control-prev{
@@ -327,7 +325,6 @@ margin-top: 30px;
     margin-left: auto;
 
 }
-
 .platos-10 img {
     width: 80%;
 
@@ -608,38 +605,6 @@ select {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .contenedor-banner {
   margin-top: 10px;
   margin-bottom: 15px;
@@ -663,18 +628,7 @@ select {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.paragraph-home {
-  border: 2px solid rgba(0, 0, 0, 0.151);
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-}
 
-.menu-de-imagenes p {
-  font-size: 13px;
-}
 
 .formulario-de-contacto {
   border: 2px solid black !important;
@@ -723,53 +677,7 @@ select {
 
 }
 
-.casos-de-exito {
-  border: solid 2px black;
-  text-align: center;
-  margin-left: 50px;
-  width: 380px;
-  border-radius: 90px;
-  -webkit-border-radius: 90px;
-  -moz-border-radius: 90px;
-  -ms-border-radius: 90px;
-  -o-border-radius: 90px;
-}
 
-.casos-de-exito .imagen-m-v {
-  width: 300px;
-  height: 300px;
-}
-
-.casos-de-exito button {
-  background-color: #037e41;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-}
-
-.texto-lateral {
-  border: black outset 4px;
-  height: 250px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-}
-
-.image {
-  background-image: url(../imagenes-para-paginas/logos-para-paginas/HaloGive.png);
-  background-position: center;
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  border: black solid 2px;
-  margin-left: 80%;
-  position: relative;
-  bottom: 50%;
-}
 
 .container-de-banner {
   justify-content: space-evenly;
@@ -937,110 +845,150 @@ footer p {
   border: none;
   cursor: pointer;
   width: auto; 
-  margin-left: 230px;
+  margin-left: 235px;
   margin-top: -57px;
 }
 
 
 
 /* media queries----------------------------------------------------------------------------------------------- */
+@media screen and (min-width:901px) and (max-width:1050px){
+}
 
-@media screen and (min-width: 780px) {
-  .banner {
-    font-size: 20px;
+@media screen and (min-width:768px) and (max-width:900px) {
+
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-btn {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+.navbar-brand img {
+    margin-left: 330px;
+    margin-top: -180px;
+  
+  }
+
+  .btn-support{
+ 
+    margin: 10px 0;
     margin-top: 30px;
   }
-}
-
-@media screen and (min-width: 768) and (max-width: 991px) {
-  .menu-img {
-    font-size: 20px;
-  }
-}
-
-@media screen and (min-width:320px) and (max-width:480px) {
-  .formulario {
-    width: 150px !important;
-
-  }
-}
-
-@media screen and (min-width:320px) and (max-width:520px) {
-  .casos-de-exito {
-    border: solid 2px black;
-    text-align: center;
-    margin-left: 20px;
-    width: 280px;
-    border-radius: 90px;
-    -webkit-border-radius: 90px;
-    -moz-border-radius: 90px;
-    -ms-border-radius: 90px;
-    -o-border-radius: 90px;
+  .bton-Whatsapp {
+    margin: 10px 0;
   }
 
-  .casos-de-exito .imagen-m-v {
-    width: 240px;
-    height: 250px;
+  .iconos-1,
+  .iconos-2 {
+    margin-right: 0;
+    margin-top: 0px;
   }
-}
 
-@media screen and (min-width:300px) and (max-width:500px) {
-  .texto-lateral {
-    font-size: 15px;
-    height: 430px;
-    margin-bottom: 15px;
-    width: 90%;
-    border: none;
-
+  .iconos-1 .nav-item,
+  .iconos-2 .nav-item {
+    margin-right: 10px;
   }
-}
 
-@media screen and (min-width:501px) and (max-width:859px) {
-  .texto-lateral {
-    font-size: 15px;
-    border: none;
-    height: 250px;
-    width: 89%;
-    margin-bottom: 10px;
-    margin-left: 25px;
+  .navbar-navegación {
+    width: 700px;
+     margin-top: -55px;
+     margin-left: 0px;
+     transform: translateX(-9%);
+ }
+.nav-sociales ul {
+    margin-top: 10px;
+      transform: translateX(-365%);
+    
   }
-}
-
-@media screen and (min-width:861px) and (max-width:1020px) {
-  .texto-lateral {
-    height: 405px;
+  .container-fluid-01 img{
     width: 40%;
+    margin-bottom: 40px;
+    margin-left: 1%;
+   
+   }
+
+   .container-fluid-02 .info-ico{
+    display:flex;
+   }
+  .container-fluid-02 img {
+    width: 40px;
+    margin: 0 100px; 
+  
+  }
+  
+  .container-fluid-02 p {
+  font-size: 16px;
+  margin-left: 30px;
+  width: 65%;
+  text-align: center;
+  margin-top: 20px;
 
   }
+.info-text .btn-container{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  }
+ 
+  /* Estilos para el carrusel */
+
+   .carousel-control-prev,
+   .carousel-control-next {
+  
+    margin-top: 100px;
+   }
+
+  .info-top {
+   margin-top: 60px;
+   margin-left: 260px;
+  }
+  
+
+  /* // banner ubicacion */
+  .icon-ubicación {
+  top: 3450px;
+ }
+    
 }
 
-@media screen and (min-width:500px) and (max-width:770px) {
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:767px) {
 
   .header {
     flex-direction: column;
     align-items: center;
-  }
+}
 
-  .container-btn {
+.container-btn {
     margin-right: 0;
-    margin-top: 10px;
-  }
-.navbar-brand img {
-    margin-left: 130px;
-    margin-top: -200px;
-  
+    margin-top: 20px;
   }
 
   .btn-support{
- 
-    margin: 10px 0;
-    margin-top: 70px;
+    margin-top: 50px;
+    margin: 20px 0;
   }
+
   .bton-Whatsapp {
     margin: 10px 0;
   }
 
-  .iconos-1,
+.navbar-brand img {
+margin-left: 270px;
+    margin-top: -180px;
+}
+
+.iconos-1,
   .iconos-2 {
     margin-right: 0;
     margin-top: 0px;
@@ -1051,261 +999,147 @@ footer p {
     margin-right: 10px;
   }
 
-  .navbar-toggler {
-    margin-left: 210px;
-    margin-right: auto;
-    display: block;
-    margin-top: -35px;
-  }
-  
-  .navbar-navegación {
-    width: 47%;
-    text-align: center;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 100px;
-  }
+.navbar-toggler {
+  margin-left: 345px; 
 
-  .navbar-navegación li {
-    margin-bottom: 10px;
+  margin-top: -40px;
+}
+
+.navbar-navegación {
+  width: 100%;
+  margin-top: 10px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-navegación li {
+  margin-bottom: 10px; 
+  margin-right:250px
+}
+
+
+.nav-sociales ul {
+  margin-top: 10px; 
+  margin-left:330px;
+  margin-bottom: 10px; 
+}
+
+.container-fluid-01 img{
+  width: 50%;
+  margin-bottom: 40px;
+  margin-left:0;
  
-  }
-
-  .nav-sociales ul {
-margin-top: 20px;
-    margin-left: 195px;
-
-  }
-
-  .galeria-de-imagenes-grid {
-
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 350px);
-  }
-
-  .contenedor-de-imagenes {
-    border: none;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .imagen1 {
-    background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/anciana-bibliotecaria.webp);
-    grid-row: 1/3;
-  }
-
-  .imagen2 {
-    background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/empleado-industrial.webp);
-    grid-row: 3/5;
-  }
-
-  .imagen3 {
-    background-image: none;
-  }
-
-  .imagen4 {
-    background-image: none;
-  }
-
-  .imagen5 {
-    background-image: none;
-  }
-
-  .imagen6 {
-    background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/anciana-morocha.png);
-    grid-row: 5/9;
-  }
-
-  .imagen7 {
-    background-image: none;
-  }
-
-  .imagen8 {
-    background-image: none;
-  }
+ }
+ .container-fluid-02 .info-ico{
+  display:flex;
+ }
+.container-fluid-02 img {
+  width: 40px;
+  margin: 0 100px; 
 
 }
 
-@media screen and (min-width:770px) and (max-width:1050px) {
-
-  .header {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .container-btn {
-    margin-right: 0;
-    margin-top: 10px;
-  }
-.navbar-brand img {
-    margin-left: 400px;
-    margin-top: -200px;
-  
-  }
-
-  .btn-support{
- 
-    margin: 10px 0;
-    margin-top: 70px;
-  }
-  .bton-Whatsapp {
-    margin: 10px 0;
-  }
-
-  .iconos-1,
-  .iconos-2 {
-    margin-right: 0;
-    margin-top: 0px;
-  }
-
-  .iconos-1 .nav-item,
-  .iconos-2 .nav-item {
-    margin-right: 10px;
-  }
-
-  .navbar-toggler {
-    margin-left: 210px;
-    margin-right: auto;
-    display: block;
-    margin-top: -35px;
-  }
-  
-  .navbar-navegación {
-    width: 710px;
-
-    margin-top: -35px;
-  
-  
-  }
-
-  .navbar-navegación li {
-    margin-bottom: 10px;
- 
-  }
-
-  .nav-sociales ul {
-margin-top: 20px;
-margin: 0;
+.container-fluid-02 p {
+font-size: 16px;
+margin-left: 40px;
+width: 65%;
 text-align: center;
+margin-top: 20px;
 
-  }
+}
+.info-text .btn-container{
+margin-top: 30px;
+margin-bottom: 40px;
+}
 
-  .galeria-de-imagenes-grid {
+.carousel-control-prev,
+.carousel-control-next {
 
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 350px);
-  }
+ margin-top: 100px;
+}
 
-  .contenedor-de-imagenes {
-    border: none;
-    background-position: center;
-    background-size: cover;
-  }
 
-  .imagen1 {
-    background-image: none;
-  }
 
-  .imagen2 {
-    background-image: none;
-  }
+.platos-10 {
+  margin-left: auto;
+}
 
-  .imagen3 {
-    background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/Escritor-free-lancer.png);
-    grid-column: 1/2;
-    grid-row: 1/4;
-  }
+.platos-10 img {
+  width: 30%;
+margin-top: 20px; 
+margin-bottom: 10px;
+}
 
-  .imagen4 {
-    background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/chef.png);
-    grid-column: 2/3;
-    grid-row: 1/4;
-  }
+.info-top {
+margin-top: 30px;
 
-  .imagen5 {
-    background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/albañil.png);
-    grid-column: 1/2;
-    grid-row: 4/9;
-  }
+margin-bottom: 30px;
+}
 
-  .imagen6 {
-    background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/hermosa-emprendedora.png);
-    grid-column: 2/3;
-    grid-row: 4/9;
-  }
 
-  .imagen7 {
-    background-image: none;
-  }
+.container-banner-ubicacion {
+position: relative;
+overflow: hidden;
+width: 100%;
+height: auto;
+}
 
-  .imagen8 {
-    background-image: none;
-  }
+.container-banner-ubicacion img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.icon-ubicación {
+position:absolute;
+top: 510%; 
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: white;
 
 }
 
-@media screen and (min-width:1051px) {
-
-  .galeria-de-imagenes-grid {
-
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 350px);
-  }
-
-  .contenedor-de-imagenes {
-    border: none;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .imagen1 {
-    background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/busnnes.webp);
-    grid-column: 1/2;
-    grid-row: 1/3;
-  }
-
-  .imagen2 {
-    background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/mecanico.webp);
-    grid-column: 2/4;
-    grid-row: 1/3;
-  }
-
-  .imagen3 {
-    background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/limpieza.webp);
-    grid-column: 1/2;
-    grid-row: 3/9;
-  }
-
-  .imagen4 {
-    background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/violinistas.png);
-    grid-column: 2/4;
-    grid-row: 3/9;
-  }
-
-  .imagen5 {
-    background-image: none
-  }
-
-  .imagen6 {
-    background-image: none
-  }
-
-  .imagen7 {
-    background-image: none;
-  }
-
-  .imagen8 {
-    background-image: none;
-  }
+.medios-de-pago img {
+width: 50%;
+object-fit: cover;
+margin-left: 190px;
+margin-top: 30px;
 }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width:320px) and (max-width:575px) {
 /* Estilos para pantallas pequeñas (móviles) */
@@ -1509,6 +1343,12 @@ form {
   width: 80%;
   margin: auto;
 
+}
+
+.subscribete-form button {
+
+  margin-left: 240px;
+  margin-top: -57px;
 }
 
 }
