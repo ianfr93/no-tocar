@@ -13,6 +13,7 @@ body {
   /* -- Nombre: valor;
 --palabrauno-palabrados:valor; */
   --color-principal: #1F242C;
+  --color-puro: #000000;
   --color-main: #292E36;
   --color-Secundario: #af8546;
   --color-Terciario: #4CAF50;
@@ -721,7 +722,7 @@ i.fa-search {
 }
 
 i.fa-search:hover {
-  color: #E1B168;
+  color: var(--button-principal);
 }
 
 /* Fin Barra search */
@@ -742,21 +743,21 @@ i.fa-search:hover {
 .menu-categorias a {
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.202);
-  color: #fff;
+  color: var(--color-cuarto);
   padding: 10px 20px;
   border-radius: 5px;
   transition: background-color 0.3s;
-  border: 1px solid #fff;
+  border: 1px solid var(--color-cuarto);
 }
 
 
 .menu-categorias a:hover {
-  background-color: #E1B168;
+  background-color: var(--color-Bordes);
 }
 
 
 select:focus {
-  border-color: #C09147;
+  border-color: var(--color-Bordes);
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
@@ -767,38 +768,6 @@ select:focus {
 }
 
 
-.card-info {
-  background-color: #B43123;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  width: 350px;
-  height: auto;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
-.card-info img {
-  width: 350px;
-  height: 220px;
-  border-radius: 5px 5px 0 0;
-}
-
-.card-info .contenido-tarjeta {
-  padding: 10px;
-}
-
-.card-info .contenido-tarjeta h3 {
-  margin: 0;
-  font-size: 25px;
-  color: #d7d7d7;
-}
-
-.card-info .contenido-tarjeta p {
-  margin: 0;
-  font-size: 16px;
-}
 
 .pagination {
   margin: 20px;
@@ -820,15 +789,16 @@ button.next {
 }
 
 button:hover {
-  background-color: #E1B168;
+  background-color: var(--button-principal);
 }
 
 button.prev:hover,
 button.next:hover {
-  background-color: #B43123;
+  background-color: var(--color-logo);
 }
 
-/** fin tarjetas producto-info **/
+
+
 .card-container {
   padding: 20px; /* Añade espacio adicional entre las tarjetas y los bordes */
 }
@@ -846,10 +816,170 @@ button.next:hover {
   margin-right: auto;
 }
 
+.card-platos .card-img-top {
+  width: 100%;
+  height: auto;
+
+}
+
+.card-platos .card-body {
+  padding: 10px;
+}
+
+.card-body h3 {
+  font-size: 1.5rem; /* Ajusta el tamaño del título según tus necesidades */
+  color: var(--color-cuarto); /* Ajusta el color del título según tus necesidades */
+  margin-bottom: 10px; /* Añade un espacio inferior al título */
+}
+
+.card-body p {
+  font-size: 1rem; /* Ajusta el tamaño del párrafo según tus necesidades */
+  color: var(--color-cuarto); /* Ajusta el color del párrafo según tus necesidades */
+  margin-bottom: 0; /* Elimina el margen inferior predeterminado del párrafo */
+
+}
+
+
+
+
 /* Estilos para el efecto hover (cambiar a rojo) */
 .card-platos:hover {
   background-color: var(--color-logo);
+
 }
+
+.product-card {
+  width: 300px; /* Ancho ajustado para que sea más cuadrada */
+  height: 350px; /* Altura ajustada, puedes cambiarla según tus necesidades */
+  position: relative;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 10px; /* Ajusta el margen según tus necesidades */
+  background: var(--color-puro);
+}
+
+
+.badge {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  background: red;
+  color: #fff;
+  padding: 3px 10px;
+}
+
+.product-tumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 190px;
+  padding: 20px;
+  background: #f0f0f0;
+}
+
+.product-tumb img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.product-details {
+  padding: 30px;
+}
+
+.product-catagory {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ccc;
+  margin-bottom: 18px;
+}
+
+.product-details h4 a {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  color: var(--color-cuarto);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+  color: var(--color-logo);
+}
+
+.product-details p {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 18px;
+  color: #999;
+}
+
+.product-bottom-details {
+  overflow: hidden;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.product-bottom-details div {
+  float: left;
+  width: 50%;
+}
+
+.product-price {
+  font-size: 18px;
+  color: var(--color-Bordes);
+  font-weight: 600;
+}
+
+.product-price small {
+  font-size: 80%;
+  font-weight: 400;
+  text-decoration: line-through;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.product-links {
+  text-align: right;
+}
+
+.product-links a {
+  display: inline-block;
+  margin-left: 5px;
+  color: #e1e1e1;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.product-links a:hover {
+  color: var(--color-logo);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /** quienes somos contenedor **/
