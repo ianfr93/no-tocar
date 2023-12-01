@@ -829,8 +829,27 @@ button.next:hover {
 }
 
 /** fin tarjetas producto-info **/
+.card-container {
+  padding: 20px; /* Añade espacio adicional entre las tarjetas y los bordes */
+}
 
+.card-platos {
+  margin: 10px;
+  align-items: center;
+  transition: background-color 0.3s;
+  background-color: var(--color-principal);
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 20px); /* Ajusta para dejar espacio a ambos lados */
+  max-width: 400px; /* Ajusta según tus necesidades */
+  margin-left: auto;
+  margin-right: auto;
+}
 
+/* Estilos para el efecto hover (cambiar a rojo) */
+.card-platos:hover {
+  background-color: var(--color-logo);
+}
 
 
 /** quienes somos contenedor **/
