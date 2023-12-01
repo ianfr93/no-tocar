@@ -21,7 +21,8 @@ body {
   --color-cuarto: #ffffff;
   --color-Bordes: #E1B168;
   --color-logo: #B43123;
-  --box-shadow: #000;
+  --color-rojo-puro: #ff1900;
+ --box-shadow: #000;
   --color-Botton-correo: #0072c6;
   --button-principal: #E1B168;
   --button-cancel: #B43123;
@@ -877,7 +878,7 @@ button.next:hover {
   justify-content: center;
   height: 190px;
   padding: 20px;
-  background: #f0f0f0;
+  background: #000000;
 }
 
 .product-tumb img {
@@ -909,7 +910,7 @@ button.next:hover {
 }
 
 .product-details h4 a:hover {
-  color: var(--color-logo);
+  color: var(--color-Bordes);
 }
 
 .product-details p {
@@ -932,7 +933,7 @@ button.next:hover {
 
 .product-price {
   font-size: 18px;
-  color: var(--color-Bordes);
+  color: var(--color-rojo-puro);
   font-weight: 600;
 }
 
@@ -957,7 +958,7 @@ button.next:hover {
 }
 
 .product-links a:hover {
-  color: var(--color-logo);
+  color: var(--color-Bordes);
 }
 
 
