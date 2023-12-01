@@ -382,6 +382,9 @@ margin-top: 30px;
       height: 100%;
       object-fit: cover;
   }
+  .container-ico-u{
+    position: absolute;
+ }
 
   .icon-ubicación {
     position: absolute;
@@ -634,7 +637,7 @@ video[poster] {
   max-width: 100%;
 }
 
-.overlay {
+.overlay-container {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -733,7 +736,7 @@ i.fa-search:hover {
 }
 
 .menu-categorias li {
-  margin: 0 19px;
+  margin: 0 10px; /* Espaciado entre elementos */
 }
 
 .menu-categorias a {
@@ -745,7 +748,6 @@ i.fa-search:hover {
   transition: background-color 0.3s;
   border: 1px solid #fff;
 }
-
 
 
 .menu-categorias a:hover {
@@ -1314,213 +1316,6 @@ button.next:hover {
 /** fin mapa **/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.formulario-de-contacto {
-  border: 2px solid black !important;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
-  background-color: #02cf69 !important;
-}
-
-.formulario-de-contacto .formulario {
-  border: 2px solid black !important;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
-}
-
-.el-boton {
-
-  font-size: 10px;
-}
-
-.contenedor-parrafo-derecha {
-  margin-top: 10px;
-  margin-bottom: 15px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.parrafo-derecha {
-  font-size: 12px;
-  text-align: center;
-  line-height: 30px;
-  background-color: black !important;
-  border: solid 3px #02cf69 !important;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  color: white;
-
-}
-
-
-
-.container-de-banner {
-  justify-content: space-evenly;
-  padding: 10px;
-}
-
-.banner-de-inversiones {
-  width: 40%;
-  border: black solid 3px !important;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
-  background-color: black;
-}
-
-.banner-de-inversiones h4 {
-  font-size: 16px;
-}
-
-.banner-de-inversiones img {
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-}
-
-.banner-de-inversiones p {
-  font-size: 11px;
-}
-
-.banner-de-inversiones button {
-  border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
-}
-
-.testimonios img {
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-}
-
-.galeria-de-imagenes-grid {
-  grid-auto-flow: row;
-  height: auto;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(8, 350px);
-}
-
-.galeria-de-imagenes-grid h2 {
-  margin-bottom: -450px;
-}
-
-.contenedor-de-imagenes {
-  margin-left: 5px;
-  margin-right: 5px;
-  background-position: center;
-  background-size: cover;
-  border-radius: 50px;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  -ms-border-radius: 50px;
-  -o-border-radius: 50px;
-}
-
-.imagen1 {
-  background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/anciana-bibliotecaria.webp);
-}
-
-.imagen2 {
-  background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/empleado-industrial.webp);
-}
-
-.imagen3 {
-  background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/Donas-2.png);
-}
-
-.imagen4 {
-  background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/Pulseras-Artesanales.png);
-}
-
-.imagen5 {
-  background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/mujer-oficina.webp);
-}
-
-.imagen6 {
-  background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/anciana-morocha.png);
-}
-
-.imagen7 {
-  background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/hermosa-emprendedora.png);
-}
-
-.imagen8 {
-  background-image: url(../imagenes-para-paginas/Imagenes-para-pagina-emprendimientos/limpieza.webp);
-}
-
 /* footer-------------------------------------------------------------------------------------------------- */
 
 footer {
@@ -1676,11 +1471,175 @@ footer p {
     top: 2980px;
    }
 
+   .overlay-container {
+    position: absolute;
+    top: 70%; /* Ajusta según sea necesario */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; /* Ajusta según sea necesario */
+    z-index: 2;
+  }
+  
+  .overlay-container h1 {
+    font-size: 30px; /* Ajusta según sea necesario */
+    margin: 0;
+  }
+  
+  .overlay-container p {
+    font-size: 18px; /* Ajusta según sea necesario */
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+
 
 }
 
+@media screen and (min-width:993px) and (max-width:1049px){
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
 
-@media screen and (min-width:768px) and (max-width:1049px) {
+  .container-btn {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .navbar-brand img {
+    margin-left: 400px;
+    margin-top: -180px;
+  }
+
+  .btn-support {
+    margin: 10px 0;
+    margin-top: 30px;
+  }
+
+  .bton-Whatsapp {
+    margin: 10px 0;
+  }
+
+  .iconos-1,
+  .iconos-2 {
+    margin-right: 0;
+    margin-top: 0px;
+  }
+
+  .iconos-1 .nav-item,
+  .iconos-2 .nav-item {
+    margin-right: 10px;
+  }
+
+  .navbar-toggler {
+    margin-left: 345px; 
+  
+    margin-top: -40px;
+  }
+  
+  .navbar-navegación {
+    width: 100%;
+    margin-top: -70px; 
+  
+    align-items: center;
+  }
+
+  .nav-sociales ul {
+    margin-top: 30px;
+   margin-left: -20px;
+   transform: translate(-280%);
+    
+  }
+  .container-fluid-01 img{
+    width: 40%;
+    margin-bottom: 40px;
+    margin-left: 1%;
+   
+   }
+
+   .container-fluid-02 .info-ico{
+    display:flex;
+   }
+  .container-fluid-02 img {
+    width: 40px;
+    margin: 0 100px; 
+  
+  }
+  
+  .container-fluid-02 p {
+  font-size: 16px;
+  margin-left: 40px;
+  width: 65%;
+  text-align: center;
+  margin-top: 20px;
+
+  }
+.info-text .btn-container{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  }
+ 
+  /* Estilos para el carrusel */
+
+   .carousel-control-prev,
+   .carousel-control-next {
+  
+    margin-top: 100px;
+   }
+
+  .info-top {
+   margin-top: 60px;
+   margin-left: 260px;
+  }
+  
+
+  /* // banner ubicacion */
+  .icon-ubicación {
+  top: 2980px;
+ }
+
+ .banner-video {
+  position: relative; /* Ajusta según sea necesario */
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.overlay-container {
+  position: absolute;
+  top: 50%; /* Ajusta según sea necesario */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%; /* Ajusta según sea necesario */
+
+}
+
+.overlay-container h1 {
+  font-size: 30px; /* Ajusta según sea necesario */
+  margin: 0;
+}
+
+.overlay-container p {
+  font-size: 18px; /* Ajusta según sea necesario */
+  margin-top: 10px;
+
+}
+
+.menu-categorias {
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.menu-categorias li {
+  margin: 13px; 
+}
+
+
+
+
+}
+@media screen and (min-width:768px) and (max-width:992px) {
 
   .header {
     flex-direction: column;
@@ -1788,6 +1747,44 @@ footer p {
   .icon-ubicación {
   top: 3450px;
  }
+
+ .banner-video {
+  position: relative; /* Ajusta según sea necesario */
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.overlay-container {
+  position: absolute;
+  top: 50%; /* Ajusta según sea necesario */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%; /* Ajusta según sea necesario */
+
+}
+
+.overlay-container h1 {
+  font-size: 30px; /* Ajusta según sea necesario */
+  margin: 0;
+}
+
+.overlay-container p {
+  font-size: 18px; /* Ajusta según sea necesario */
+  margin-top: 10px;
+
+}
+
+.menu-categorias {
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.menu-categorias li {
+  margin: 13px; 
+}
     
 }
 
@@ -1946,8 +1943,43 @@ margin-left: 190px;
 margin-top: 30px;
 }
 
+.banner-video {
+  position: relative; /* Ajusta según sea necesario */
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
 
+.overlay-container {
+  position: absolute;
+  top: 50%; /* Ajusta según sea necesario */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%; /* Ajusta según sea necesario */
 
+}
+
+.overlay-container h1 {
+  font-size: 30px; /* Ajusta según sea necesario */
+  margin: 0;
+}
+
+.overlay-container p {
+  font-size: 18px; /* Ajusta según sea necesario */
+  margin-top: 10px;
+
+}
+
+.menu-categorias {
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.menu-categorias li {
+  margin: 13px; 
+}
 
 }
 
@@ -2042,12 +2074,10 @@ margin-top: 30px;
   }
 
   .nav-sociales ul {
-margin-top: 20px;
+    margin-top: 20px;
     margin-left: 195px;
 
   }
-  
-
   .container-fluid-01 img{
    margin-left: 0;
   margin-bottom: 40px;
@@ -2158,7 +2188,9 @@ margin-top: -80px;
   height: 100%;
   object-fit: cover;
 }
-
+.container-ico-u{
+  position: absolute;
+}
 .icon-ubicación {
   position:absolute;
   top: 560%; 
@@ -2191,24 +2223,45 @@ form {
   margin-top: -57px;
 }
 
-.overlay {
+
+.banner-video {
+  position: relative; /* Ajusta según sea necesario */
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.overlay-container {
   position: absolute;
-  top: 70%;
+  top: 50%; /* Ajusta según sea necesario */
   left: 50%;
   transform: translate(-50%, -50%);
-
   width: 50%; /* Ajusta según sea necesario */
   z-index: 2;
 }
 
-.overlay h1 {
+.overlay-container h1 {
   font-size: 24px; /* Ajusta según sea necesario */
+  margin: 0;
 }
 
-.overlay p {
+.overlay-container p {
   font-size: 12px; /* Ajusta según sea necesario */
   margin-top: 10px;
+  margin-bottom: 0;
 }
+
+.menu-categorias {
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+.menu-categorias li {
+  margin: 13px; 
+}
+
 
 }
 
