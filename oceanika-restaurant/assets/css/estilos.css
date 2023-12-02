@@ -2108,18 +2108,22 @@ footer p {
 
 .info-text {
 margin-bottom:50px;
-margin-left: 25px;
+margin-left: 55px;
+width: 100%;
 }
 
 .info-text h2 {
 margin-top: -80px;
+margin-left: 80px;
+text-align: center;
+width: 100%;
 
   }
 
 .info-local img{
 
   margin-bottom: 50px;
-  margin-left: 100px;
+  margin-left: 140px;
   height: auto;
 
 }
