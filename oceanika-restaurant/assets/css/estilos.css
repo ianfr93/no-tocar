@@ -175,7 +175,7 @@ body {
 }
 
 .container-fluid-01{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.424), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.587), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-quienes-somos.jpg);
   background-size: cover;
   background-position: center center;
   background-color: var(--color-main);
