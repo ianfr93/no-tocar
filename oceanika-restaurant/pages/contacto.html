@@ -145,12 +145,7 @@
 
 
         <!--mapas-->
-        <div class="texto-contenedor">
-            <div class="texto-mapa">
-                <h3>Nuestra oficina central</h3>
-                <p>mapa de nuestro sede principal Santiago, centro</p>
-            </div>
-        </div>
+       
         <div class="container-maps">
             <div class="maps-iframe">
                 <iframe
@@ -163,69 +158,68 @@
         <!-- fin mapas-->
 
         <!--formulario de contacto-->
-        <div class="contenedor-formulario-contacto">
-            <div class="formulario-izquierda">
-                <h2>informacion de contacto</h2>
-                <p style="color: #000000;">Estos nuestros datos personales de nuestra oficina
-                    central puedes escribirnos a estos medios de contacto </p>
+        <div class="container">
 
-                <div class="contacto-item">
-
-                    <i class="fas fa-location-dot"></i>
-                    <h4>Santiago, Centro </h4>
+            <h1 class="brand"><span>Phoenix Web Design</span></h1>
+        
+            <div class="wrapper">
+        
+                <!-- COMPANY INFORMATION -->
+                <div class="company-info">
+                    <h3>Phoenix Web Design</h3>
+        
+                    <ul>
+                        <li><i class="fa fa-road"></i> 44 Main Street</li>
+                        <li><i class="fa fa-phone"></i> (555) 555-5555</li>
+                        <li><i class="fa fa-envelope"></i> test@phoenix.com</li>
+                    </ul>
                 </div>
-
-                <div class="contacto-item">
-
-                    <i class="fas fa-envelope"></i>
-                    <h4>Oceanikasushi@mail.com</h4>
+                <!-- End .company-info -->
+        
+                <!-- CONTACT FORM -->
+                <div class="contact">
+                    <h3>E-mail Us</h3>
+        
+                    <form id="contact-form">
+        
+                        <p>
+                            <label>Name</label>
+                            <input type="text" name="name" id="name" required>
+                        </p>
+        
+                        <p>
+                            <label>Company</label>
+                            <input type="text" name="company" id="company">
+                        </p>
+        
+                        <p>
+                            <label>E-mail Address</label>
+                            <input type="email" name="email" id="email" required>
+                        </p>
+        
+                        <p>
+                            <label>Phone Number</label>
+                            <input type="text" name="phone" id="phone">
+                        </p>
+        
+                        <p class="full">
+                            <label>Message</label>
+                            <textarea name="message" rows="5" id="message"></textarea>
+                        </p>
+        
+                        <p class="full">
+                            <button type="submit">Submit</button>
+                        </p>
+        
+                    </form>
+                    <!-- End #contact-form -->
                 </div>
-
-                <div class="contacto-item">
-
-                    <i class="fas fa-phone"></i>
-                    <h4>(487) 870 - 1087</h4>
-                </div>
-                <div class="sociales-iconos">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-pinterest"></i></a>
-                </div>
+                <!-- End .contact -->
+        
             </div>
-
-
-
-            <div class="formulario-derecha">
-                <h2 style="color: #000000;">¿Tiene alguna pregunta? </h2>
-                <form action="procesar_formulario.php" method="post">
-                    <div class="campo">
-                        <label for="nombre">Nombre:</label>
-                        <input type="Nom" id="nombre" name="nombre" required>
-                    </div>
-                    <div class="campo">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="campo">
-                        <label for="sujeto">Sujeto:</label>
-                        <input type="Suje" id="sujeto" name="sujeto" required>
-                    </div>
-                    <div class="campo">
-                        <label for="telefono">Teléfono:</label>
-                        <input type="tel" id="telefono" name="telefono">
-                    </div>
-                    <div class="mensaje-texto">
-                        <label for="mensaje">Mensaje:</label>
-                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-                    </div>
-
-                    <div class="botoncito-enviar">
-                        <button type="submit">Enviar</button>
-                    </div>
-                </form>
-            </div>
+            <!-- End .wrapper -->
         </div>
+        <!-- End .container -->
         <!--fin formulario de contacto-->
 
         
@@ -234,7 +228,7 @@
 
     </main>
 
-
+    
 
 
    <!-- Agrega más artículos según sea necesario -->
