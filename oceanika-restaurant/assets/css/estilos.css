@@ -946,28 +946,31 @@ button.next:hover {
 
 
 
-.texto-Quienes-somos {
-  background-color: #B43123;
-  background-image: url(../images/BG/BG-restaurant.jpg);
-  background-size: cover;
-  background-position: center;
-  padding: 10px;
-  z-index: 2;
-  margin: 0px;
-  z-index: 2;
+
+/* Estilos para el contenedor principal */
+.contenedor-banner-video-2 {
+  display: flex;
+  background-color: var(--color-puro);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
 }
 
-.texto-Quienes-somos::before {
-  content: "";
-  position: absolute;
-  top: 277px;
-  left: 0;
-  width: 100%;
-  height: 18%;
-  background-color: #B43123;
-  opacity: 0.4;
+/* Estilos para el video a la izquierda */
+.banner-video-02 {
+  width: 50%; 
+}
 
-  z-index: 1;
+.texto-banner {
+  width: 50%; 
+  padding: 20px; 
+  box-sizing: border-box; 
+}
+
+.texto-banner h1{
+  font-size: 50px;
+}
+
+.texto-banner p{
+  font-size: 16px;
 }
 
 .texto-Quienes-somos h1 {
@@ -976,11 +979,12 @@ button.next:hover {
   margin: 0;
   padding: 20px 0;
   z-index: 2;
+  color:var(--color-cuarto);
 }
 
 .texto-Quienes-somos p {
   font-size: 16px;
-  color: #ffffff;
+  color: var(--color-cuarto);
   text-align: center;
   margin-top: -10px;
   z-index: 2;
@@ -2607,6 +2611,26 @@ form {
   color: var(--color-cuarto);
   font-size: 16px;
   
+}
+
+.contenedor-banner-video-2 {
+  display: flex;
+  flex-direction: column; /* Cambia la dirección del eje principal a columna en dispositivos móviles */
+  background-color: var(--color-puro);
+  
+}
+
+/* Estilos para el video a la izquierda */
+.banner-video-02 {
+  width: 100%; /* El video ocupará el 100% del ancho en dispositivos móviles */
+ margin-top: 30px;
+}
+
+/* Estilos para el título y el párrafo a la derecha */
+.texto-banner {
+  width: 100%; /* El texto ocupará el 100% del ancho en dispositivos móviles */
+  padding: 20px; /* Ajusta el espacio interno según sea necesario */
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
 }
 
 }
