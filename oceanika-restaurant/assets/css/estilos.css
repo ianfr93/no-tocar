@@ -56,16 +56,11 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
-
 .container-btn {
   margin-right: auto;
   display: flex;
   align-items: center;
-
 }
-
-
 .btn-support {
   margin-left: 170px;
   border: 1px solid var(--color-Bordes) !important;
@@ -77,9 +72,7 @@ body {
   background-color: var(--color-Botton-correo) !important;
   color: var(--color-cuarto);
   border: 1px solid var(--color-cuarto) !important;
-
 }
-
 .bton-Whatsapp {
 
   background-color: var(--button-principal) !important;
@@ -160,8 +153,6 @@ body {
   position: relative;
   transition: transform 0.3s ease; 
 }
-
-
 .navbar-navegación a:hover {
   transform: translateY(-5px);
 }
@@ -182,9 +173,6 @@ body {
   text-decoration: none;
   color: inherit;
 }
-
-
-
 
 .container-fluid-01{
   background-color: var(--color-main);
@@ -219,13 +207,10 @@ text-align: left;
   display: flex;
   margin-bottom: 50px;
   margin-top: 50px;
-
-
 }
 .container-fluid-02 img {
   width: 50px;
   margin: 0 40px; 
-
 }
 
 .container-fluid-02 p {
@@ -280,7 +265,6 @@ margin-top: 30px;
   background-size: cover;
   background-position: center;
   text-align: center;
-
 }
 .info-textos {
   padding-top: 50px;
@@ -355,7 +339,6 @@ margin-top: 30px;
     width: 100%;
     font-size: 35px;
 
-   
 }
 
 .info-top p {
@@ -370,8 +353,7 @@ margin-top: 30px;
 
       margin-top: auto;
       padding: 0px;
-
-  }
+}
 
  .container-banner-ubicacion {
       position: relative;
@@ -529,8 +511,6 @@ margin-top: 30px;
   background-size: cover;
   background-position: center center;
   text-align: center;
-
-
 }
 
 .container-reserva h2 {
@@ -2108,17 +2088,31 @@ footer p {
 
 .info-text {
 margin-bottom:50px;
-margin-left: 55px;
+
 width: 100%;
 }
 
 .info-text h2 {
 margin-top: -80px;
-margin-left: 80px;
+margin-left: 140px;
 text-align: center;
 width: 100%;
+font-size: 35px;
 
-  }
+}
+
+.info-text p{
+margin-left: 140px;
+width: 100%;
+text-align: center;
+}
+
+.info-text .btn-container{
+margin-top: 30px;
+margin-left: 140px;
+width: 100%;
+}
+
 
 .info-local img{
 
@@ -2135,7 +2129,7 @@ width: 100%;
 .carousel-inner {
   display: flex;
   flex-wrap: nowrap;
-  width: 70%;
+  width: 40%;
   margin: auto;
   margin-top: 80px;
 }
@@ -2156,8 +2150,11 @@ width: 100%;
 }
 
 .platos-10 img {
-  margin-top: 20px; 
-  margin-bottom: 20px;
+  margin-top: 30px; 
+  margin-bottom: 10px;
+  width: 50%;
+margin-right: 50px;
+
 }
 
 .info-top {
@@ -2193,7 +2190,7 @@ object-fit: cover;
 
 .icon-ubicación {
 position:absolute;
-top: 510%; 
+top: 580%; 
 left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;
@@ -2204,8 +2201,12 @@ color: white;
 .medios-de-pago img {
 width: 50%;
 object-fit: cover;
-margin-left: 190px;
+margin: 145px;
 margin-top: 30px;
+}
+
+form {
+width: 60%;
 }
 
 .banner-video {
@@ -2223,7 +2224,6 @@ margin-top: 30px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 50%; /* Ajusta según sea necesario */
-
 }
 
 .overlay-container h1 {
