@@ -651,7 +651,7 @@ video[poster] {
 
 /** tarjetas producto-info **/
 .contenedor-card {
-  background-image: url(../images/BG/BG-nuestra-carta.jpg);
+  background-image: url(../images/BG/BG-restaurant.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -666,7 +666,7 @@ video[poster] {
 
 /* Barra search */
 .contenedor-menu {
-  background-image: url(../images/BG/BG-nuestra-carta.jpg);
+  background-image: url(../images/BG/BG-restaurant.jpg);
   background-size: cover;
   background-position: center;
   max-width: 100%;
@@ -742,11 +742,7 @@ select:focus {
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
-.texto-card {
-  background-image: url(../images/BG/BG-nuestra-carta.jpg);
-  background-color: rgb(0, 0, 0);
-  padding: 10px;
-}
+
 
 
 
@@ -905,7 +901,8 @@ button.next:hover {
 .texto-Quienes-somos {
   background-color: #B43123;
   background-image: url(../images/BG/BG-restaurant.jpg);
-
+  background-size: cover;
+  background-position: center;
   padding: 10px;
   z-index: 2;
   margin: 0px;
@@ -949,7 +946,7 @@ button.next:hover {
 }
 
 .contenedor-quienes-somos {
-  background-image: url(../images/BG/BG-quienes-somos.jpg);
+  background-image: url(../images/BG/BG-restaurant.jpg);
   background-color: #1F242C;
   background-size: cover;
   background-position: center;
