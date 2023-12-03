@@ -175,6 +175,9 @@ body {
 }
 
 .container-fluid-01{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.424), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
+  background-size: cover;
+  background-position: center center;
   background-color: var(--color-main);
 
 }
@@ -192,15 +195,17 @@ text-align: left;
  font-size: 16px;
  }
  
-.container-fluid-01 img{
- width: 50%;
+.container-fluid-01 video{
+ width: 40%;
  margin-bottom: 40px;
  margin-left: 35%;
 
+
 }
 .container-fluid-02 {
-  background-image: url(../images/BG/BG-info-local.jpg);
-  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.424), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-info-local.jpg);
+  background-size: cover;
+  background-position: center center;
   width: 100%;
 }
 .container-fluid-02 .info-ico{
@@ -1457,10 +1462,12 @@ footer p {
     margin-right: 10px;
   }
 
-  .container-fluid-01 img{
-    width: 80%;
+  .container-fluid-01 video{
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
     margin-bottom: 40px;
-    margin-left: 1%;
+  
    
    }
 
@@ -1628,12 +1635,14 @@ footer p {
    transform: translate(-280%);
     
   }
-  .container-fluid-01 img{
-    width: 40%;
+  .container-fluid-01 video{
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
     margin-bottom: 40px;
-    margin-left: 1%;
+  }
    
-   }
+   
 
    .container-fluid-02 .info-ico{
     display:flex;
@@ -1821,12 +1830,12 @@ footer p {
     margin-bottom: 10px; 
     margin-right:250px
   }
-  .container-fluid-01 img{
-    width: 40%;
+  .container-fluid-01 video {
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
     margin-bottom: 40px;
-    margin-left: 1%;
-   
-   }
+  }
 
    .container-fluid-02 .info-ico{
     display:flex;
@@ -2025,11 +2034,12 @@ footer p {
     margin-left: 230px; 
     margin-right: auto; 
   }
-  .container-fluid-01 img{
-   margin-left: 0;
-  margin-bottom: 40px;
-   
-   }
+  .container-fluid-01 video {
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 40px;
+  }
 
   .container-fluid-02 .info-ico{
     display: flex;
@@ -2378,11 +2388,12 @@ width: 60%;
     margin-left: 195px;
 
   }
-  .container-fluid-01 img{
-   margin-left: 0;
-  margin-bottom: 40px;
-   
-   }
+  .container-fluid-01 video {
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 40px;
+  }
 
   .container-fluid-02 .info-ico{
     display: flex;
