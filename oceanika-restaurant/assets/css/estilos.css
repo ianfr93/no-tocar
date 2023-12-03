@@ -651,33 +651,34 @@ video[poster] {
 
 /** tarjetas producto-info **/
 .contenedor-card {
-  background-image: url(../images/BG/BG-restaurant.jpg);
+
+  padding: 1.9rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
   max-width: 100%;
   margin: 0 auto;
-  padding: 25px 0;
   text-align: center;
 }
 
 /* Barra search */
 .contenedor-menu {
-  background-image: url(../images/BG/BG-restaurant.jpg);
-  background-size: cover;
-  background-position: center;
-  max-width: 100%;
+max-width: 100%;
   margin: 0 auto;
-  padding: 10px 0;
+padding: 1.9rem 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
 
 }
 
 .search-container {
-
-  display: flex;
+display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px 0;
@@ -718,7 +719,7 @@ i.fa-search:hover {
 }
 
 .menu-categorias li {
-  margin: 0 10px; /* Espaciado entre elementos */
+  margin: 0 10px; 
 }
 
 .menu-categorias a {
@@ -741,10 +742,6 @@ select:focus {
   border-color: var(--color-Bordes);
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
-
-
-
-
 
 .pagination {
   margin: 20px;
@@ -773,14 +770,11 @@ button.prev:hover,
 button.next:hover {
   background-color: var(--color-rojo-puro);
 }
-
-
-
 .product-card {
-  width: calc(100% - 20px); /* Ancho del 100% menos el margen */
-  height: auto; /* Altura automática para adaptarse al contenido */
+  width: calc(100% - 20px); 
+  height: auto; 
   box-shadow: 0 2px 7px #dfdfdf;
-  margin: 10px; /* Ajusta el margen según tus necesidades */
+  margin: 10px; 
   background: var(--color-puro);
   position: relative;
 }
@@ -788,8 +782,8 @@ button.next:hover {
 
 .badge {
   position: absolute;
-  left: 10px; /* Ajusta según sea necesario */
-  top: 20px; /* Ajusta según sea necesario */
+  left: 10px; 
+  top: 20px; 
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
@@ -897,6 +891,60 @@ button.next:hover {
 
 
 /** quienes somos contenedor **/
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+}
+
+
 
 .texto-Quienes-somos {
   background-color: #B43123;
@@ -1006,71 +1054,12 @@ button.next:hover {
 /** fin quienes somos contenedor **/
 
 /** blog-img **/
-.contenedor-BG {
-  background-image: url(../images/BG/BG-restaurant.jpg);
-  background-size: cover;
-  background-position: center;
-  max-width: 100%;
-  min-height: 15vh;
-  padding: 100px;
-  margin: 0;
+.blog h3,
+p{
+  color: var(--color-cuarto);
+  
 }
 
-.titulo-parrafo h3 {
-  color: #ffffff;
-  text-align: center;
-  margin: 0;
-  padding: 20px 0;
-  margin-top: -50px;
-}
-
-.titulo-parrafo p {
-  color: #ffffff;
-  text-align: center;
-  margin: 0;
-  padding: 20px 0;
-  margin-top: -20px;
-}
-
-.contenedor-tarjetas-blog {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.tarjeta-blog {
-  background-color: #000000;
-  border: 1px solid #000000;
-  border-radius: 5px;
-  width: calc(50% - 20px);
-  margin: 10px;
-  padding: 5px;
-  margin-top: 0px;
-  box-sizing: border-box;
-  text-align: center;
-  align-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.tarjeta-blog img {
-  max-width: 100%;
-  width: 100%;
-}
-
-.contenido-tarjeta h3 {
-  margin: 0;
-  font-size: 25px;
-  color: #ffffff;
-  padding: 10px;
-}
-
-.contenido-tarjeta p {
-  margin: 0;
-  font-size: 16px;
-  padding: 10px;
-}
 
 /** Fin blog-img **/
 
@@ -2606,6 +2595,15 @@ form {
 
 .product-price small {
   margin-right: 3px;
+}
+
+.blog h3{
+  font-size: 30px;
+}
+.blog p{
+  color: var(--color-cuarto);
+  font-size: 16px;
+  
 }
 
 }
