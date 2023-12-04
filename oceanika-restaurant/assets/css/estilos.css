@@ -203,7 +203,7 @@ text-align: left;
 
 }
 .container-fluid-02 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.424), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-info-local.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.932), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-info-local.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
