@@ -180,12 +180,14 @@ body {
   background-position: center center;
   background-color: var(--color-main);
 
+
 }
 
 .container-fluid-01 h1{
  font-size: 50px;
 margin: 60px;
 text-align: left;
+margin-top: 80px;
 }
 
 .container-fluid-01 p{
@@ -193,6 +195,7 @@ text-align: left;
  text-align: left;
  line-height: 1.6;
  font-size: 16px;
+ margin-top: 50px;
  }
  
 .container-fluid-01 video{
@@ -203,8 +206,8 @@ text-align: left;
 
 }
 .container-fluid-02 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.628), rgba(0, 0, 0, 0.555)), url(../images/BG/BG-restaurant.jpg);
-  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.888), rgba(0, 0, 0, 0.555)), url(../images/BG/BG-quienes-somos.jpg);
+  background-size:contain;
   background-position: center center;
   width: 100%;
 }
@@ -588,7 +591,7 @@ select {
 
 /** banner-video **/
 .contenedor-banner-video {
-  background-image: url(../images/Nuestra-carta/banner-video.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.757), rgba(0, 0, 0, 0.44)), url(../images/Nuestra-carta/banner-video.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -598,7 +601,7 @@ select {
 
 }
 .banner-video {
-  width: 65%; 
+  width: 60vw; 
   height: auto;
   overflow: hidden;
   display: flex;
@@ -607,15 +610,13 @@ select {
   margin-right: auto;
 }
 video {
-  width: 80%; 
+  width: 100vw; 
   height: auto;
   overflow: hidden;
   display: flex;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0; 
 }
-
 video[poster] {
   max-width: 100%;
 }
@@ -896,20 +897,22 @@ button.next:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  justify-content: center; /* Centra los elementos horizontalmente */
+  justify-content: center; 
   padding: 20px;
-
 }
 
-.image-container {
+.gallery .image-container {
+  width: calc(40% - 10px); 
+  margin-bottom: 10px; 
+  box-sizing: border-box;
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
-.image-container img {
+.gallery .image-container img {
   width: 100%;
   height: auto;
   display: block;
@@ -945,7 +948,11 @@ button.next:hover {
   font-weight: bold;
   margin: 10px;
   text-align: center;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
 }
+
 
 
 
@@ -971,12 +978,18 @@ button.next:hover {
 .texto-banner h1{
   font-size: 50px;
   margin-top: 10px;
+  text-align: center;
+  align-items: center;
 }
 
 .texto-banner p{
   font-size: 16px;
   line-height: 1.6;
   margin-top: 50px;
+  text-align: center;
+text-transform:capitalize;
+width: 100%;
+
 }
 
 
@@ -985,9 +998,6 @@ button.next:hover {
 .texto-Quienes-somos p {
   position: relative;
   z-index: 2;
-
-
-
 }
 
 .contenedor-quienes-somos {
@@ -1065,8 +1075,9 @@ p{
 .contenedor-tarjetas-orden {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  gap: 10px;
+  justify-content: center; 
+  padding: 20px;
 }
 
 .contenedor-tarjetas-contacto h1 {
@@ -2524,20 +2535,20 @@ form {
 
 .overlay-container {
   position: absolute;
-  top: 50%; /* Ajusta según sea necesario */
+  top: 50%; 
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50%; /* Ajusta según sea necesario */
+  width: 50%; 
   z-index: 2;
 }
 
 .overlay-container h1 {
-  font-size: 24px; /* Ajusta según sea necesario */
+  font-size: 24px; 
   margin: 0;
 }
 
 .overlay-container p {
-  font-size: 12px; /* Ajusta según sea necesario */
+  font-size: 12px; 
   margin-top: 10px;
   margin-bottom: 0;
 }
@@ -2553,10 +2564,10 @@ form {
 
 
 .product-card {
-  width: calc(100% - 20px); /* Ancho del 100% menos el margen */
-  height: auto; /* Altura automática para adaptarse al contenido */
+  width: calc(100% - 20px); 
+  height: auto; 
   box-shadow: 0 2px 7px #dfdfdf;
-  margin: 10px; /* Ajusta el margen según tus necesidades */
+  margin: 10px; 
   background: var(--color-puro);
 }
 
@@ -2604,24 +2615,26 @@ form {
 
 .contenedor-banner-video-2 {
   display: flex;
-  flex-direction: column; /* Cambia la dirección del eje principal a columna en dispositivos móviles */
+  flex-direction: column; 
   background-color: var(--color-puro);
   
 }
 
 /* Estilos para el video a la izquierda */
 .banner-video-02 {
-  width: 100%; /* El video ocupará el 100% del ancho en dispositivos móviles */
+  width: 100%; 
  margin-top: 30px;
 }
 
 /* Estilos para el título y el párrafo a la derecha */
 .texto-banner {
-  width: 100%; /* El texto ocupará el 100% del ancho en dispositivos móviles */
-  padding: 20px; /* Ajusta el espacio interno según sea necesario */
-  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+  width: 100%; 
+  padding: 20px; 
+  box-sizing: border-box; 
 }
-
+.gallery .image-container {
+  width: 100%; /* En dispositivos móviles, ocuparán el 100% del ancho */
+}
 }
 
 
