@@ -254,10 +254,6 @@ text-align: left;
 margin-top: 30px;
 }
 .info-local img{
-  background-image: url(../images/BG/BG-info-local.jpg);
-  background-size: cover;
-  background-position: center;
-
   margin-bottom: 50px;
   margin-left: 50px;
   width: 300px;
