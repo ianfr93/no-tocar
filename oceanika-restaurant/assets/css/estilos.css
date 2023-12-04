@@ -206,7 +206,7 @@ margin-top: 80px;
 
 }
 .container-fluid-02 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.888), rgba(0, 0, 0, 0.555)), url(../images/BG/BG-quienes-somos.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.888), rgba(0, 0, 0, 0.555)), url(../images/BG/BG-info-local.jpg);
   background-size:contain;
   background-position: center center;
   width: 100%;
@@ -227,7 +227,7 @@ margin-top: 80px;
   vertical-align: middle; 
 }
 .contenedor-info-02{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.639), rgba(0, 0, 0, 0.573)), url(../images/BG/BG-info-local.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.639), rgba(0, 0, 0, 0.376)), url(../images/BG/BG-info-local.jpg);
   background-size: cover;
   background-position: center center;
   width: 100%;
