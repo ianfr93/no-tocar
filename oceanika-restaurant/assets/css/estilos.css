@@ -7,6 +7,7 @@
 body {
   margin: 0;
   overflow-x: hidden; /* Esto ocultará el scroll horizontal */
+background-color: var(--color-principal);
 }
 
 :root {
@@ -43,134 +44,139 @@ body {
 }
 
 
-.post-header {
-  background-color: var(--color-principal) !important;
-}
 
-.header {
-  padding: 30px 20px;
-  background-color: var(--color-principal);
+
+/* Estilos del encabezado */
+
+
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.container-btn {
-  margin-right: auto;
-  display: flex;
-  align-items: center;
-}
-.btn-support {
-  margin-left: 170px;
-  border: 1px solid var(--color-Bordes) !important;
-  background-color: transparent !important;
-  border-radius: 0px;
+  width: 100%;
+  height: 9vh;
 }
 
-.btn-support:hover {
-  background-color: var(--color-Botton-correo) !important;
-  color: var(--color-cuarto);
-  border: 1px solid var(--color-cuarto) !important;
-}
-.bton-Whatsapp {
-
-  background-color: var(--button-principal) !important;
-  border-radius: 0px;
-  margin-right: 170px;
-}
-
-.bton-Whatsapp:hover {
-  background-color: var(--color-hover-whatsapp) !important;
-  color: var(--color-cuarto);
-}
-
-.navbar {
-  background-color: var(--color-principal)!important;
-
-}
-
-.navbar-brand {
-  display: flex;
-  align-items: center;
-  margin-right: auto;
-}
-
+/* Estilos del logotipo */
 .navbar-brand img {
-  margin-left: 30px;
+  max-height: 50px; /* Altura máxima del logotipo */
+  margin-top: 10px;
+}
+.botones-1{
+  margin-left: 0px;
+  transform:translateX(90%);
+}
+/* Estilos del botón de navegación en pantallas pequeñas */
+.navbar-toggler {
+  border: 0;
+}
+
+.dropdown{
+  background-color: var(--color-principal);
+  margin-top: 20px;
+}
+.nav-item-2{
+  margin-top: 20px;
+}
+.dropdown-menu{
+  background-color: var(--color-logo);
+  margin-left: 20px;
   width: 100%;
 }
 
-.iconos-1 {
-  display: flex;
-  align-items: center;
+/* Estilos para el Top Nav */
+#navbar-1_nav_top{
+  background-color: var(--color-principal)!important;
 }
 
-
-.iconos-1 .nav-item {
-  display: flex;
-  align-items: center;
-  margin-right: 40px;
+#navbar-1_nav_top .container {
+  color: var(--color-cuarto); /* Color del texto */
 }
 
-.iconos-2 {
-  display: flex;
-  align-items: center;
+#navbar-1_nav_top a {
+  color: var(--color-cuarto) !important; 
 }
 
-
-.iconos-2 .nav-item {
-  display: flex;
-  align-items: center;
-  margin-right: 120px;
+.redes-sociales{
+  margin-top: 20px;
+  font-size: 18px;
 }
 
-.iconos-1,
-.nav-link i,
-.iconos-2,
-.nav-link i {
-  color: #ffffff;
-}
-.nav-item span {
-  margin-left: 10px;
-}
-
-.navbar-navegación.ml-auto {
-  margin-left: 85px;
-}
-/* Estilos normales */
-.navbar-navegación a {
+#navbar-1_nav_top a:hover {
   text-decoration: none;
-  color: var(--color-cuarto); 
-  transition: color 0.3s ease; 
-  margin-left: 50px;
-}
-/* Efectos de hover */
-.navbar-navegación a:hover {
-  color: var(--color-Bordes); 
-}
-.navbar-navegación a {
-  position: relative;
-  transition: transform 0.3s ease; 
-}
-.navbar-navegación a:hover {
-  transform: translateY(-5px);
+  color: var(--color-Bordes) !important; 
 }
 
-.nav-sociales ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex; 
-  margin-right: 150px;
+.btn-support {
+  color: var(--color-cuarto); /* Color del texto del botón */
+  border-color: var(--color-cuarto); /* Color del borde del botón */
+  margin-right: 0px;
 }
 
-.nav-sociales li {
-  margin-right: 20px; 
+.btn-support:hover {
+  background-color: var(--color-Botton-correo); /* Color de fondo al pasar el mouse */
+  color: var(--color-cuarto); /* Cambio de color del texto al pasar el mouse */
 }
 
-.nav-sociales a {
-  text-decoration: none;
-  color: inherit;
+.bton-Whatsapp {
+  color: var(--color-cuarto); /* Color del texto del botón */
+  border-color: var(--color-cuarto); /* Color del borde del botón */
+  margin-left: -10px;
 }
+
+.bton-Whatsapp:hover {
+  background-color: var(--color-hover-whatsapp); /* Color de fondo al pasar el mouse */
+  color: var(--color-cuarto); /* Cambio de color del texto al pasar el mouse */
+}
+
+/* Estilos para el Header */
+.navbar {
+  background-color: var(--color-logo); /* Color de fondo */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.navbar-toggler {
+  background-color: var(--color-cuarto);
+
+}
+.navbar-toggler-icon {
+  color: var(--color-cuarto); /* Color del ícono del botón de hamburguesa */
+
+}
+
+.navbar-nav .nav-link {
+  color: var(--color-cuarto); /* Color del texto de los enlaces */
+  margin-left: 40px;
+  transition: color 0.3s ease-in, margin-left 0.3s ease-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--color-Bordes); /* Color del texto al pasar el mouse */
+  margin-left: 50px; /* Cambio en el margen al pasar el mouse */
+}
+
+
+.sections-1{
+  margin-right: 190px;
+  width: 100%;
+  background-color: var(--color-logo);
+  transform:translateX(-5%);
+
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--color-Bordes); /* Cambio de color del texto de los enlaces al pasar el mouse */
+}
+
+/* Agrega más estilos según sea necesario */
+
+
+
+
+
+
+
+
 
 .container-fluid-01{
   background-image: linear-gradient(rgba(0, 0, 0, 0.587), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-quienes-somos.jpg);
@@ -1090,10 +1096,6 @@ p{
 }
 
 
-
-
-
-
 .loacales-BG {
   background-image: url(../images/BG/BG-restaurant.jpg);
   background-size: cover;
@@ -1299,11 +1301,6 @@ ul {
   transition: background-color 2s ease-out;
 }
 
-
-
-
-
-
 /** fin formulario de contacto **/
 
 /** mapa **/
@@ -1380,54 +1377,66 @@ ul {
 }
 
 /* footer-------------------------------------------------------------------------------------------------- */
-
+/* Estilos generales del footer */
+/* Estilos generales del footer */
 footer {
   background-color: var(--color-principal) !important;
   text-align: center;
   width: 100%;
   height: auto;
+  margin-top: 200px;
 }
 
-footer img{
-  width: 200px;
-  margin-top: 30px;
+/* Estilos para el contenedor del logo en el footer */
+.container-logo {
+  text-align: center; /* Centrar el contenido del contenedor */
 }
+
+/* Estilos para el logo en el footer */
+.logo-footer img {
+  max-width: 190px; /* Asegurar que la imagen no exceda el tamaño del contenedor */
+  height: auto; /* Hacer que la altura se ajuste proporcionalmente al ancho */
+  margin-top: -290px; /* Ajustar la separación superior según sea necesario */
+}
+
+/* Estilos para las redes sociales */
 footer .social-icons a {
   color: var(--color-cuarto);
   font-size: 20px;
   margin: 0 10px;
 }
 
-
- footer h4 {
-  margin-bottom: 0; 
+/* Estilos para los títulos y párrafos en el footer */
+footer h4 {
+  margin-bottom: 10px; /* Añadir espacio inferior a los títulos */
   text-align: center;
   color: var(--color-cuarto);
   font-size: 22px;
 }
+
 footer p {
- color: var(--color-Bordes);
+  color: var(--color-Bordes);
   text-align: center;
- font-size: 16px;
+  font-size: 16px;
 }
 
+/* Estilos para la sección de contacto */
 .footer-contacto {
-  margin-top: 150px;
+  margin-top: 50px; /* Ajustar según sea necesario */
   width: 100%;
 }
-.footer .copyright{
-  margin-bottom: 20px;
-}
 
+/* Estilos para el formulario de subscripción */
 .subscribete-form {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   align-items: center;
-  margin: 0;
+  justify-content: center; /* Centrar horizontalmente el contenido del formulario */
+  margin-top: 20px; /* Ajustar según sea necesario */
 }
 
 .subscribete-form input {
-  width: 80%;
+  width: 60%; /* Ajustar según sea necesario */
   box-sizing: border-box;
   padding: 10px;
   margin-bottom: 10px;
@@ -1439,224 +1448,22 @@ footer p {
   padding: 12px 25px;
   border: none;
   cursor: pointer;
-  width: auto; 
-  margin-left: 235px;
-  margin-top: -57px;
+  margin-left: 10px; /* Ajustar según sea necesario */
 }
+
+
+
 
 
 
 /* media queries----------------------------------------------------------------------------------------------- */
-@media screen and (min-width:1050px)and (max-width:1202px){
-  .header {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .container-btn {
-    margin-right: 0;
-    margin-top: 10px;
-  }
-
-  .navbar-brand img {
-    margin-left: 400px;
-    margin-top: -180px;
-  }
-
-  .btn-support {
-    margin: 10px 0;
-    margin-top: 30px;
-  }
-
-  .bton-Whatsapp {
-    margin: 10px 0;
-  }
-
-  .iconos-1,
-  .iconos-2 {
-    margin-right: 0;
-    margin-top: 0px;
-  }
-
-  .iconos-1 .nav-item,
-  .iconos-2 .nav-item {
-    margin-right: 10px;
-  }
-
-  .container-fluid-01 video{
-    width: 50%; 
-    margin-left: auto; 
-    margin-right: auto; 
-    margin-bottom: 40px;
-  
-   
-   }
-
-   .container-fluid-02 .info-ico{
-    display:flex;
-   }
-  .container-fluid-02 img {
-    width: 40px;
-    margin: 0 125px; 
-  
-  }
-  
-  .container-fluid-02 p {
-  font-size: 16px;
-  margin-left: 40px;
-  width: 65%;
-  text-align: center;
-  margin-top: 20px;
-
-  }
-.info-text .btn-container{
-  margin-top: 30px;
-  margin-bottom: 40px;
-  }
-
-
-  
-  .navbar-navegación {
-    width: 100%;
-    margin-top: -70px; 
-  
-    align-items: center;
-  }
-
-  .nav-sociales ul {
-    margin-top: 30px;
-   margin-left: -20px;
-   transform: translate(-280%);
-    
-  }
-
-
-  /* // banner ubicacion */
-  .icon-ubicación {
-    top: 2980px;
-   }
-
-   .overlay-container {
-    position: absolute;
-    top: 70%; /* Ajusta según sea necesario */
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%; /* Ajusta según sea necesario */
-    z-index: 2;
-  }
-  
-  .overlay-container h1 {
-    font-size: 30px; /* Ajusta según sea necesario */
-    margin: 0;
-  }
-  
-  .overlay-container p {
-    font-size: 18px; /* Ajusta según sea necesario */
-    margin-top: 0px;
-    margin-bottom: 0;
-  }
-
-
-.product-card {
-  width: calc(100% - 20px); /* Ancho del 100% menos el margen */
-  height: auto; /* Altura automática para adaptarse al contenido */
-  box-shadow: 0 2px 7px #dfdfdf;
-  margin: 10px; /* Ajusta el margen según tus necesidades */
-  background: var(--color-puro);
-}
-
-.product-tumb {
-  height: auto;
-  padding: 10px;
-}
-
-.product-tumb img {
-  width: 100%;
-  height: auto;
-}
-
-.product-details {
-  padding: 15px;
-}
-
-.product-catagory {
-  margin-bottom: 10px;
-}
-
-.product-details h4 a {
-  margin-bottom: 10px;
-}
-
-.product-details p,
-.product-price,
-.product-links {
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
-.product-price small {
-  margin-right: 3px;
-}
-
-
-}
 
 @media screen and (min-width:993px) and (max-width:1049px){
-  .header {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .container-btn {
-    margin-right: 0;
-    margin-top: 10px;
-  }
 
-  .navbar-brand img {
-    margin-left: 400px;
-    margin-top: -180px;
-  }
-
-  .btn-support {
-    margin: 10px 0;
-    margin-top: 30px;
-  }
-
-  .bton-Whatsapp {
-    margin: 10px 0;
-  }
-
-  .iconos-1,
-  .iconos-2 {
-    margin-right: 0;
-    margin-top: 0px;
-  }
-
-  .iconos-1 .nav-item,
-  .iconos-2 .nav-item {
-    margin-right: 10px;
-  }
-
-  .navbar-toggler {
-    margin-left: 345px; 
   
-    margin-top: -40px;
-  }
-  
-  .navbar-navegación {
-    width: 100%;
-    margin-top: -70px; 
-  
-    align-items: center;
-  }
-
-  .nav-sociales ul {
-    margin-top: 30px;
-   margin-left: -20px;
-   transform: translate(-280%);
-    
-  }
-  .container-fluid-01 video{
+.container-fluid-01 video{
     width: 50%; 
     margin-left: auto; 
     margin-right: auto; 
@@ -1786,71 +1593,43 @@ footer p {
   margin-right: 3px;
 }
 
-
-
+.logo-footer{
+  margin-top: -20px;
+}
+    
 
 }
 @media screen and (min-width:768px) and (max-width:992px) {
 
-  .header {
-    flex-direction: column;
-    align-items: center;
-  }
-
   .container-btn {
-    margin-right: 0;
-    margin-top: 10px;
+    justify-content: center;
   }
 
   .navbar-brand img {
-    margin-left: 265px;
-    margin-top: -180px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .btn-support {
-    margin: 10px 0;
-    margin-top: 30px;
-  }
-
-  .bton-Whatsapp {
-    margin: 10px 0;
-  }
-
-  .iconos-1,
-  .iconos-2 {
-    margin-right: 0;
-    margin-top: 0px;
-  }
-
-  .iconos-1 .nav-item,
-  .iconos-2 .nav-item {
-    margin-right: 10px;
-  }
-
-  .navbar-toggler {
-    margin-left: 345px; 
-  
-    margin-top: -40px;
-  }
-  
   .navbar-navegación {
-    width: 100%;
-    margin-top: 10px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-left: 0;
+  }
+
+  .navbar-navegación a {
+    margin-left: 15px;
   }
 
   .nav-sociales ul {
-    margin-top: 10px;
-   margin-left: 330px;
-    
+    margin-right: 0;
   }
-  
-  .navbar-navegación li {
-    margin-bottom: 10px; 
-    margin-right:250px
+
+  .nav-sociales li {
+    margin-right: 15px;
   }
+
+  .navbar-toggler {
+    margin-right: 15px;
+  }
+
   .container-fluid-01 video {
     width: 50%; 
     margin-left: auto; 
@@ -1978,54 +1757,24 @@ footer p {
 .product-price small {
   margin-right: 3px;
 }
+
+footer {
+  background-color: var(--color-principal) !important;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-top: 400px;
+}
+
+.logo-footer{
+  margin-top: -200px;
+}
     
 }
 
-
-
-
-
-
-
-
-
-
 @media screen and (min-width:576px) and (max-width:767px) {
 
-  .header {
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .container-btn {
-    margin-right: 0;
-    margin-top: 10px;
-  }
-.navbar-brand img {
-    margin-left: 170px;
-    margin-top: -200px;
-  
-  }
-
-  .btn-support{
- 
-    margin: 10px 0;
-    margin-top: 70px;
-  }
-  .bton-Whatsapp {
-    margin: 10px 0;
-  }
-
-  .iconos-1,
-  .iconos-2 {
-    margin-right: 0;
-    margin-top: 0px;
-  }
-
-  .iconos-1 .nav-item,
-  .iconos-2 .nav-item {
-    margin-right: 10px;
-  }
 
   .navbar-toggler {
     margin-left: 248px; 
@@ -2034,27 +1783,7 @@ footer p {
     margin-top: -35px;
   }
   
-  .navbar-navegación {
-    width: 47%;
-    text-align: center;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 100px;
-  }
 
-  .navbar-navegación li {
-    margin-bottom: 10px;
-    margin-left: 35px;
- 
-  }
-
-  .nav-sociales ul {
-    margin-top: 20px;
-    margin-left: 230px; 
-    margin-right: auto; 
-  }
   .container-fluid-01 video {
     width: 50%; 
     margin-left: auto; 
@@ -2313,74 +2042,37 @@ width: 60%;
   text-align: left;
 }
 
+footer {
+  background-color: var(--color-principal) !important;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-top: 400px;
 }
 
+.logo-footer{
+  margin-top: -200px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 @media screen and (min-width:320px) and (max-width:575px) {
 /* Estilos para pantallas pequeñas (móviles) */
 
-  .header {
-    flex-direction: column;
-    align-items: center;
-  }
+.navbar-navegación {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
-  .container-btn {
-    margin-right: 0;
-    margin-top: 10px;
-  }
-.navbar-brand img {
-    margin-left: 130px;
-    margin-top: -200px;
-  
-  }
+.navbar-navegación a {
+  margin: 5px;
+}
 
-  .btn-support{
- 
-    margin: 10px 0;
-    margin-top: 70px;
-  }
-  .bton-Whatsapp {
-    margin: 10px 0;
-  }
-
-  .iconos-1,
-  .iconos-2 {
-    margin-right: 0;
-    margin-top: 0px;
-  }
-
-  .iconos-1 .nav-item,
-  .iconos-2 .nav-item {
-    margin-right: 10px;
-  }
+.nav-sociales ul {
+  margin-top: 5px;
+}
 
   .navbar-toggler {
     margin-left: 210px;
@@ -2389,26 +2081,8 @@ width: 60%;
     margin-top: -35px;
   }
   
-  .navbar-navegación {
-    width: 47%;
-    text-align: center;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 100px;
-  }
 
-  .navbar-navegación li {
-    margin-bottom: 10px;
- 
-  }
-
-  .nav-sociales ul {
-    margin-top: 20px;
-    margin-left: 195px;
-
-  }
+  
   .container-fluid-01 video {
     width: 50%; 
     margin-left: auto; 
@@ -2667,7 +2341,21 @@ form {
 .gallery .image-container {
   width: 100%; /* En dispositivos móviles, ocuparán el 100% del ancho */
 }
+
+footer {
+  background-color: var(--color-principal) !important;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-top: 400px;
 }
+
+.logo-footer{
+  margin-top: -200px;
+}
+}
+
+
 
 
 /** boton subir**/
