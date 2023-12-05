@@ -1068,9 +1068,7 @@ width: 100%;
 .blog h3,
 p{
   color: var(--color-cuarto);
-  
 }
-
 
 /** Fin blog-img **/
 
@@ -1078,14 +1076,16 @@ p{
 /** nuestros locales **/
 
 .locales-container {
+background-color: #000;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 60px;
   justify-content: center; 
-  padding: 20px;
+  padding: 10px;
 }
 
 .local-card {
+background-color: var(--color-cuarto);
   width: calc(40% - 0px); 
   margin-bottom: 10px; 
   box-sizing: border-box;
