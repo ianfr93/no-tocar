@@ -1370,30 +1370,28 @@ footer {
   margin-top: 50px;
 }
 
-/* Estilos para el contenedor del logo en el footer */
+
 .container-logo {
-  text-align: center; /* Centrar el contenido del contenedor */
+  text-align: center; 
 
 }
 
-/* Estilos para el logo en el footer */
 .logo-footer img {
-  max-width: 190px; /* Asegurar que la imagen no exceda el tamaño del contenedor */
-  height: auto; /* Hacer que la altura se ajuste proporcionalmente al ancho */
-  margin-top: 0px; /* Ajustar la separación superior según sea necesario */
+  max-width: 190px; 
+  height: auto; 
+  margin-top: 0px;
 
 }
 
-/* Estilos para las redes sociales */
+
 footer .social-icons a {
   color: var(--color-cuarto);
   font-size: 18px;
   margin: 0 10px;
 }
 
-/* Estilos para los títulos y párrafos en el footer */
 footer h4 {
-  margin-bottom: 10px; /* Añadir espacio inferior a los títulos */
+  margin-bottom: 10px; 
   text-align: center;
   color: var(--color-cuarto);
   font-size: 22px;
@@ -1405,18 +1403,16 @@ footer p {
   font-size: 16px;
 }
 
-
-/* Estilos para el formulario de subscripción */
 .subscribete-form {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center; /* Centrar horizontalmente el contenido del formulario */
-  margin-top: 20px; /* Ajustar según sea necesario */
+  justify-content: center; 
+  margin-top: 20px; 
 }
 
 .subscribete-form input {
-  width: 90%; /* Ajustar según sea necesario */
+  width: 90%; 
   box-sizing: border-box;
   padding: 10px;
   margin-bottom: 10px;
@@ -1428,7 +1424,7 @@ footer p {
   padding: 12px 25px;
   border: none;
   cursor: pointer;
-  margin-left: auto; /* Empuja el botón hacia la derecha */
+  margin-left: auto; 
   margin-top: -57px;
 }
 
@@ -1657,7 +1653,7 @@ footer p {
     }
 
  .banner-video {
-  position: relative; /* Ajusta según sea necesario */
+  position: relative; 
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -1667,20 +1663,20 @@ footer p {
 
 .overlay-container {
   position: absolute;
-  top: 50%; /* Ajusta según sea necesario */
+  top: 50%; 
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50%; /* Ajusta según sea necesario */
+  width: 50%; 
 
 }
 
 .overlay-container h1 {
-  font-size: 30px; /* Ajusta según sea necesario */
+  font-size: 30px; 
   margin: 0;
 }
 
 .overlay-container p {
-  font-size: 18px; /* Ajusta según sea necesario */
+  font-size: 18px; 
   margin-top: 10px;
 
 }
@@ -1696,10 +1692,10 @@ footer p {
 
 
 .product-card {
-  width: calc(100% - 20px); /* Ancho del 100% menos el margen */
-  height: auto; /* Altura automática para adaptarse al contenido */
+  width: calc(100% - 20px); 
+  height: auto; 
   box-shadow: 0 2px 7px #dfdfdf;
-  margin: 10px; /* Ajusta el margen según tus necesidades */
+  margin: 10px; 
   background: var(--color-puro);
 }
 
@@ -1735,12 +1731,7 @@ footer p {
 .product-price small {
   margin-right: 3px;
 }
-
-
-    
 }
-
-
 
 /* ------------- */
 /* MEDIA QUERIES */
@@ -1770,7 +1761,6 @@ footer p {
     text-align: left;
   }
 }
-
 
 
 
