@@ -51,22 +51,30 @@ background-color: var(--color-principal);
 /* Estilos del encabezado */
 
 
-.container {
+.container-arriba{
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 9vh;
+  height: auto;
 }
+.container-abajo{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
+}
 /* Estilos del logotipo */
 .navbar-brand img {
   max-height: 50px; /* Altura máxima del logotipo */
-  margin-top: 10px;
+  margin-top: 20px;
+margin-left: 60px;
 }
 .botones-1{
   margin-left: 0px;
-  transform:translateX(90%);
+  transform:translateX(83%);
 }
 /* Estilos del botón de navegación en pantallas pequeñas */
 .navbar-toggler {
@@ -75,10 +83,10 @@ background-color: var(--color-principal);
 
 .dropdown{
   background-color: var(--color-principal);
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .nav-item-2{
-  margin-top: 20px;
+  margin-top: 25px;
 }
 .dropdown-menu{
   background-color: var(--color-logo);
@@ -100,8 +108,9 @@ background-color: var(--color-principal);
 }
 
 .redes-sociales{
-  margin-top: 20px;
+  margin-top: 30px;
   font-size: 18px;
+margin-right: 60px;
 }
 
 #navbar-1_nav_top a:hover {
@@ -154,15 +163,15 @@ background-color: var(--color-principal);
 
 .navbar-nav .nav-link:hover {
   color: var(--color-Bordes); /* Color del texto al pasar el mouse */
-  margin-left: 50px; /* Cambio en el margen al pasar el mouse */
+  margin-left: 20px; /* Cambio en el margen al pasar el mouse */
 }
 
 
 .sections-1{
-  margin-right: 190px;
+  margin-right: 280px;
   width: 100%;
   background-color: var(--color-logo);
-  transform:translateX(-5%);
+  transform:translateX(1%);
 
 }
 
@@ -171,12 +180,6 @@ background-color: var(--color-principal);
 }
 
 /* Agrega más estilos según sea necesario */
-
-
-
-
-
-
 
 
 
@@ -1354,62 +1357,37 @@ ul {
 /** fin mapa **/
 
 
-/* ------------- */
-/* MEDIA QUERIES */
-/* ------------- */
 
-@media only screen and (min-width: 700px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-  }
-
-  .wrapper > * {
-    padding: 2em;
-  }
-
-  .company-info {
-    border-radius: 4px 0 0 4px;
-  }
-
-  .contact {
-    border-radius: 0 4px 4px 0;
-  }
-
-  .company-info h3,
-  .company-info ul,
-  .brand {
-    text-align: left;
-  }
-}
 
 /* footer-------------------------------------------------------------------------------------------------- */
-/* Estilos generales del footer */
+
 /* Estilos generales del footer */
 footer {
   background-color: var(--color-principal) !important;
   text-align: center;
   width: 100%;
   height: auto;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 /* Estilos para el contenedor del logo en el footer */
 .container-logo {
   text-align: center; /* Centrar el contenido del contenedor */
+
 }
 
 /* Estilos para el logo en el footer */
 .logo-footer img {
   max-width: 190px; /* Asegurar que la imagen no exceda el tamaño del contenedor */
   height: auto; /* Hacer que la altura se ajuste proporcionalmente al ancho */
-  margin-top: -290px; /* Ajustar la separación superior según sea necesario */
+  margin-top: 0px; /* Ajustar la separación superior según sea necesario */
+
 }
 
 /* Estilos para las redes sociales */
 footer .social-icons a {
   color: var(--color-cuarto);
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 10px;
 }
 
@@ -1427,11 +1405,6 @@ footer p {
   font-size: 16px;
 }
 
-/* Estilos para la sección de contacto */
-.footer-contacto {
-  margin-top: 50px; /* Ajustar según sea necesario */
-  width: 100%;
-}
 
 /* Estilos para el formulario de subscripción */
 .subscribete-form {
@@ -1443,7 +1416,7 @@ footer p {
 }
 
 .subscribete-form input {
-  width: 60%; /* Ajustar según sea necesario */
+  width: 90%; /* Ajustar según sea necesario */
   box-sizing: border-box;
   padding: 10px;
   margin-bottom: 10px;
@@ -1455,8 +1428,10 @@ footer p {
   padding: 12px 25px;
   border: none;
   cursor: pointer;
-  margin-left: 10px; /* Ajustar según sea necesario */
+  margin-left: auto; /* Empuja el botón hacia la derecha */
+  margin-top: -57px;
 }
+
 
 
 
@@ -1517,8 +1492,9 @@ footer p {
 
   /* // banner ubicacion */
   .icon-ubicación {
-  top: 2980px;
- }
+    top: 378%; 
+    }
+
 
  .banner-video {
   position: relative; /* Ajusta según sea necesario */
@@ -1599,11 +1575,6 @@ footer p {
 .product-price small {
   margin-right: 3px;
 }
-
-.logo-footer{
-  margin-top: -20px;
-}
-    
 
 }
 @media screen and (min-width:768px) and (max-width:992px) {
@@ -1682,8 +1653,8 @@ footer p {
 
   /* // banner ubicacion */
   .icon-ubicación {
-  top: 3450px;
- }
+    top: 420%; 
+    }
 
  .banner-video {
   position: relative; /* Ajusta según sea necesario */
@@ -1765,31 +1736,66 @@ footer p {
   margin-right: 3px;
 }
 
-footer {
-  background-color: var(--color-principal) !important;
-  text-align: center;
-  width: 100%;
-  height: auto;
-  margin-top: 400px;
-}
 
-.logo-footer{
-  margin-top: -200px;
-}
     
 }
 
+
+
+/* ------------- */
+/* MEDIA QUERIES */
+/* ------------- */
+
+@media only screen and (min-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > * {
+    padding: 2em;
+  }
+
+  .company-info {
+    border-radius: 4px 0 0 4px;
+  }
+
+  .contact {
+    border-radius: 0 4px 4px 0;
+  }
+
+  .company-info h3,
+  .company-info ul,
+  .brand {
+    text-align: left;
+  }
+}
+
+
+
+
 @media screen and (min-width:576px) and (max-width:767px) {
 
+  .navbar-toggler{
+    margin-left: 10px;
+  }
+  .sections-1{
+    margin-left: 20px;
 
+  }
+  .navbar-collapse {
+    margin-top: 10px; 
+    max-height: calc(90vh - 56px);
+    overflow-y: auto;
+    margin-left: 50px;
+    width: 100%;
 
-  .navbar-toggler {
-    margin-left: 248px; 
-    margin-right: auto; 
-    display: block;
-    margin-top: -35px;
   }
   
+  .navbar-nav .nav-link {
+    width: 100%;
+    margin-left: 0px;
+  }
 
   .container-fluid-01 video {
     width: 50%; 
@@ -1927,11 +1933,8 @@ object-fit: cover;
 
 .icon-ubicación {
 position:absolute;
-top: 580%; 
+top: 520%; 
 left: 50%;
-transform: translate(-50%, -50%);
-text-align: center;
-color: white;
 
 }
 
@@ -1947,7 +1950,7 @@ width: 60%;
 }
 
 .banner-video {
-  position: relative; /* Ajusta según sea necesario */
+  position: relative; 
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -1957,19 +1960,19 @@ width: 60%;
 
 .overlay-container {
   position: absolute;
-  top: 50%; /* Ajusta según sea necesario */
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50%; /* Ajusta según sea necesario */
+  width: 50%; 
 }
 
 .overlay-container h1 {
-  font-size: 30px; /* Ajusta según sea necesario */
+  font-size: 30px; 
   margin: 0;
 }
 
 .overlay-container p {
-  font-size: 18px; /* Ajusta según sea necesario */
+  font-size: 18px; 
   margin-top: 10px;
 
 }
@@ -1985,10 +1988,10 @@ width: 60%;
 
 
 .product-card {
-  width: calc(100% - 20px); /* Ancho del 100% menos el margen */
-  height: auto; /* Altura automática para adaptarse al contenido */
+  width: calc(100% - 20px); 
+  height: auto;
   box-shadow: 0 2px 7px #dfdfdf;
-  margin: 10px; /* Ajusta el margen según tus necesidades */
+  margin: 10px; 
   background: var(--color-puro);
 }
 
@@ -2049,17 +2052,7 @@ width: 60%;
   text-align: left;
 }
 
-footer {
-  background-color: var(--color-principal) !important;
-  text-align: center;
-  width: 100%;
-  height: auto;
-  margin-top: 400px;
-}
 
-.logo-footer{
-  margin-top: -200px;
-}
 
 }
 
@@ -2067,28 +2060,25 @@ footer {
 @media screen and (min-width:320px) and (max-width:575px) {
 /* Estilos para pantallas pequeñas (móviles) */
 
-.navbar-navegación {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+
+.navbar-toggler{
+  margin-left: 10px;
+}
+.sections-1{
+  margin-left: 3px;
+}
+.navbar-collapse {
+  margin-top: 10px; 
+  max-height: calc(90vh - 56px);
+  overflow-y: auto;
+  margin-left: 50px;
+  width: 100%;
 }
 
-.navbar-navegación a {
-  margin: 5px;
+.navbar-nav .nav-link {
+  width: 100%;
+  margin-left: 0px;
 }
-
-.nav-sociales ul {
-  margin-top: 5px;
-}
-
-  .navbar-toggler {
-    margin-left: 210px;
-    margin-right: auto;
-    display: block;
-    margin-top: -35px;
-  }
-  
-
   
   .container-fluid-01 video {
     width: 50%; 
@@ -2205,13 +2195,7 @@ margin-top: -80px;
   position: absolute;
 }
 .icon-ubicación {
-  position:absolute;
-  top: 560%; 
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-
+top: 500%; 
 }
 
 .medios-de-pago img {
@@ -2229,7 +2213,6 @@ form {
   margin: auto;
 
 }
-
 .subscribete-form button {
 
   margin-left: 240px;
@@ -2238,7 +2221,7 @@ form {
 
 
 .banner-video {
-  position: relative; /* Ajusta según sea necesario */
+  position: relative; 
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -2346,20 +2329,17 @@ form {
   box-sizing: border-box; 
 }
 .gallery .image-container {
-  width: 100%; /* En dispositivos móviles, ocuparán el 100% del ancho */
+  width: 100%; 
 }
 
-footer {
-  background-color: var(--color-principal) !important;
-  text-align: center;
-  width: 100%;
-  height: auto;
-  margin-top: 400px;
+.subscribete-form button {
+
+ 
+  margin-left: 280px; 
+  margin-top: -57px;
 }
 
-.logo-footer{
-  margin-top: -200px;
-}
+
 }
 
 
