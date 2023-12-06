@@ -1146,11 +1146,12 @@ p{
 
 
 /** formulario de contacto **/
-.container {
-  max-width: 1170px;
+.container-contacto {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 1em;
+
 }
 
 ul {
@@ -1166,23 +1167,19 @@ ul {
 }
 
 .brand span {
-  color: #ffffff;
+  color: var(--color-cuarto);
 }
 
-.wrapper {
-  box-shadow: 0 0 20px 0 rgba(57, 82, 163, 0.7);
-}
-
-.wrapper > * {
-  padding: 1em;
-}
 
 /* ------------------- */
 /* COMPANY INFORMATION */
 /* ------------------- */
 
 .company-info {
-  background: #C3C9DD;
+background-color: var(--button-cancel);
+
+
+
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
@@ -1191,6 +1188,9 @@ ul {
 .company-info ul {
   text-align: center;
   margin: 0 0 1rem 0;
+  color: var(--color-cuarto);
+ 
+
 }
 
 /* ------- */
@@ -1198,7 +1198,7 @@ ul {
 /* ------- */
 
 .contact {
-  background: #dcdfea;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
@@ -1212,7 +1212,9 @@ ul {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
-
+.contact h3{
+  color: var(--color-cuarto);
+}
 .contact form label {
   display: block;
 }
@@ -1229,8 +1231,8 @@ ul {
 .contact form input,
 .contact form textarea {
   width: 100%;
-  padding: 1em;
-  border: solid 1px #627EDC;
+  padding: 0.3em;
+  border: solid 1px var(--color-Bordes);
   border-radius: 4px;
 }
 
@@ -1239,7 +1241,7 @@ ul {
 }
 
 .contact form button {
-  background: #627EDC;
+  background: var(--color-logo);
   border: 0;
   color: #e4e4e4;
   text-transform: uppercase;
@@ -1249,10 +1251,10 @@ ul {
 
 .contact form button:hover,
 .contact form button:focus {
-  background: #3952a3;
+  background: var(--color-Secundario);
   color: #ffffff;
   outline: 0;
-  transition: background-color 2s ease-out;
+  transition: background-color 0.3s ease-out;
 }
 
 /** fin formulario de contacto **/
