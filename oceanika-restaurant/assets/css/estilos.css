@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  overflow-x: hidden; /* Esto ocultará el scroll horizontal */
+  overflow-x: hidden; 
 background-color: var(--color-principal);
 
 }
@@ -68,7 +68,7 @@ background-color: var(--color-principal);
 }
 /* Estilos del logotipo */
 .navbar-brand img {
-  max-height: 50px; /* Altura máxima del logotipo */
+  max-height: 50px; 
   margin-top: 20px;
 margin-left: 60px;
 }
@@ -100,7 +100,7 @@ margin-left: 60px;
 }
 
 #navbar-1_nav_top .container {
-  color: var(--color-cuarto); /* Color del texto */
+  color: var(--color-cuarto); 
 }
 
 #navbar-1_nav_top a {
@@ -119,31 +119,31 @@ margin-right: 60px;
 }
 
 .btn-support {
-  color: var(--color-cuarto); /* Color del texto del botón */
-  border-color: var(--color-cuarto); /* Color del borde del botón */
+  color: var(--color-cuarto); 
+  border-color: var(--color-cuarto); 
   margin-right: 0px;
 }
 
 .btn-support:hover {
-  background-color: var(--color-Botton-correo); /* Color de fondo al pasar el mouse */
-  color: var(--color-cuarto); /* Cambio de color del texto al pasar el mouse */
+  background-color: var(--color-Botton-correo); 
+  color: var(--color-cuarto);
 }
 
 .bton-Whatsapp {
-  color: var(--color-cuarto); /* Color del texto del botón */
-  border-color: var(--color-cuarto); /* Color del borde del botón */
+  color: var(--color-cuarto); 
+  border-color: var(--color-cuarto); 
   margin-left: -10px;
 }
 
 .bton-Whatsapp:hover {
-  background-color: var(--color-hover-whatsapp); /* Color de fondo al pasar el mouse */
-  color: var(--color-cuarto); /* Cambio de color del texto al pasar el mouse */
+  background-color: var(--color-hover-whatsapp); 
+  color: var(--color-cuarto); 
 }
 
 /* Estilos para el Header */
 .navbar {
-  background-color: var(--color-logo); /* Color de fondo */
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); /* Sombra */
+  background-color: var(--color-logo); 
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); 
 }
 
 .navbar-toggler {
@@ -151,19 +151,19 @@ margin-right: 60px;
 
 }
 .navbar-toggler-icon {
-  color: var(--color-cuarto); /* Color del ícono del botón de hamburguesa */
+  color: var(--color-cuarto);
 
 }
 
 .navbar-nav .nav-link {
-  color: var(--color-cuarto); /* Color del texto de los enlaces */
+  color: var(--color-cuarto); 
   margin-left: 40px;
   transition: color 0.3s ease-in, margin-left 0.3s ease-out;
 }
 
 .navbar-nav .nav-link:hover {
-  color: var(--color-Bordes); /* Color del texto al pasar el mouse */
-  margin-left: 20px; /* Cambio en el margen al pasar el mouse */
+  color: var(--color-Bordes); 
+  margin-left: 20px; 
 }
 
 
@@ -176,7 +176,7 @@ margin-right: 60px;
 }
 
 .navbar-nav .nav-link:hover {
-  color: var(--color-Bordes); /* Cambio de color del texto de los enlaces al pasar el mouse */
+  color: var(--color-Bordes); 
 }
 
 /* Agrega más estilos según sea necesario */
@@ -381,23 +381,10 @@ margin-top: 30px;
       height: 100%;
       object-fit: cover;
   }
-  .container-ico-u{
-    position: absolute;
- }
 
-  .icon-ubicación {
-    position: absolute;
-    top: 2830px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-  }
-  
-  .icon-ubicación i {
-    font-size: 130px;
-    margin-bottom: 10px;
-  }
+
+
+
   
 /* fin banner ubicacion */
 .container-medios-de-pagos {
@@ -906,8 +893,6 @@ button.next:hover {
   color: var(--color-Bordes);
 }
 
-
-
 /** quienes somos contenedor **/
 .gallery {
   display: flex;
@@ -969,10 +954,6 @@ button.next:hover {
   margin-top: 50px;
 }
 
-
-
-
-
 /* Estilos para el contenedor principal */
 .contenedor-banner-video-2 {
   display: flex;
@@ -1007,8 +988,6 @@ text-transform:capitalize;
 width: 100%;
 
 }
-
-
 
 .texto-Quienes-somos h1,
 .texto-Quienes-somos p {
@@ -1087,8 +1066,6 @@ p{
   gap: 60px;
   justify-content: center; 
   padding: 50px;
-
-
 }
 
 .local-card {
@@ -1133,16 +1110,16 @@ p{
   margin-left: 30px;
 }
 .intro {
-  margin-bottom: 10px; /* Ajusta según sea necesario */
+  margin-bottom: 10px; 
   text-align: center;
 }
 
 .intro h1 {
-  margin-top: 30px; /* Ajusta según sea necesario */
+  margin-top: 30px; 
  
 }
 .intro p {
-  margin-top: 10px; /* Ajusta según sea necesario */
+  margin-top: 10px; 
 }
 /** fin nuestros locales **/
 
@@ -1162,11 +1139,10 @@ ul {
 }
 
 
-
 .container-contactos h1 {
   color: var(--color-cuarto);
   text-align: center;
-font-size: 45px;
+font-size: 40px !important;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
   margin-bottom: 0px;
@@ -1174,7 +1150,7 @@ font-size: 45px;
 }
 
 .container-contactos p{
-  font-size: 16px;
+  font-size: 16px !important;
   text-align: center;
 }
 
@@ -1183,10 +1159,10 @@ font-size: 45px;
 /* COMPANY INFORMATION */
 /* ------------------- */
 .company-info img {
-  margin-left: 5vw; /* 5% del ancho de la ventana */
-  margin-top: 8vh; /* 3% de la altura de la ventana */
-  width: 45%; /* 45% del ancho del contenedor */
-  border-radius: 50%; /* Hacerlo perfectamente redondo con 50% de borde */
+  margin-left: 5vw; 
+  margin-top: 8vh; 
+  width: 45%; 
+  border-radius: 50%; 
 }
 .company-info {
 background-color: var(--button-cancel);
@@ -1357,11 +1333,13 @@ footer h4 {
   font-size: 22px;
 }
 
+/* Estilos para el pie de página */
 footer p {
   color: var(--color-Bordes);
   text-align: center;
-  font-size: 16px;
+  font-size: 13px;
 }
+
 
 .subscribete-form {
   display: flex;
@@ -1389,6 +1367,10 @@ footer p {
 }
 
 
+.copyright span{
+  font-size: 13px;
+}
+
 
 
 
@@ -1398,9 +1380,6 @@ footer p {
 
 
 @media screen and (min-width:993px) and (max-width:1049px){
-
-
-  
 .container-fluid-01 video{
     width: 50%; 
     margin-left: auto; 
@@ -1445,15 +1424,8 @@ footer p {
    margin-left: 260px;
   }
   
-
-  /* // banner ubicacion */
-  .icon-ubicación {
-    top: 378%; 
-    }
-
-
- .banner-video {
-  position: relative; /* Ajusta según sea necesario */
+  .banner-video {
+  position: relative; 
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -1463,20 +1435,20 @@ footer p {
 
 .overlay-container {
   position: absolute;
-  top: 50%; /* Ajusta según sea necesario */
+  top: 50%; 
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50%; /* Ajusta según sea necesario */
+  width: 50%; 
 
 }
 
 .overlay-container h1 {
-  font-size: 30px; /* Ajusta según sea necesario */
+  font-size: 30px; 
   margin: 0;
 }
 
 .overlay-container p {
-  font-size: 18px; /* Ajusta según sea necesario */
+  font-size: 18px; 
   margin-top: 10px;
 
 }
@@ -1492,10 +1464,10 @@ footer p {
 
 
 .product-card {
-  width: calc(100% - 20px); /* Ancho del 100% menos el margen */
-  height: auto; /* Altura automática para adaptarse al contenido */
+  width: calc(100% - 20px); 
+  height: auto;
   box-shadow: 0 2px 7px #dfdfdf;
-  margin: 10px; /* Ajusta el margen según tus necesidades */
+  margin: 10px; 
   background: var(--color-puro);
 }
 
@@ -1606,12 +1578,6 @@ footer p {
    margin-left: 260px;
   }
   
-
-  /* // banner ubicacion */
-  .icon-ubicación {
-    top: 420%; 
-    }
-
  .banner-video {
   position: relative; 
   width: 100%;
@@ -1881,12 +1847,7 @@ height: 100%;
 object-fit: cover;
 }
 
-.icon-ubicación {
-position:absolute;
-top: 520%; 
-left: 50%;
 
-}
 
 .medios-de-pago img {
 width: 50%;
@@ -2141,12 +2102,7 @@ margin-top: -80px;
   height: 100%;
   object-fit: cover;
 }
-.container-ico-u{
-  position: absolute;
-}
-.icon-ubicación {
-top: 500%; 
-}
+
 
 .medios-de-pago img {
 width: 60%;
@@ -2266,13 +2222,12 @@ form {
   
 }
 
-/* Estilos para el video a la izquierda */
+
 .banner-video-02 {
   width: 100%; 
  margin-top: 30px;
 }
 
-/* Estilos para el título y el párrafo a la derecha */
 .texto-banner {
   width: 100%; 
   padding: 20px; 
@@ -2292,10 +2247,47 @@ form {
 .local-card {
   width: 100%;
   display: block;
-  margin-bottom: 20px; /* Ajusta el margen según tus necesidades */
+  margin-bottom: 20px; 
 }
 
 }
+
+
+
+/* ------- */
+/* CONTACT */
+/* ------- */
+
+.contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+ 
+}
+
+/* ---- */
+/* FORM */
+/* ---- */
+
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact h3 {
+  text-align: center;
+}
+
+.container-contactos h1{
+  font-size: 25px;
+
+}
+
+.container-contactos p{
+  font-size: 15px;
+}
+
 
 
 
