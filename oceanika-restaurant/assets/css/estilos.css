@@ -1146,7 +1146,7 @@ p{
 
 
 /** formulario de contacto **/
-.container-contacto {
+.container-contactos {
   background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
   max-width: 100%;
   margin-left: auto;
@@ -1159,22 +1159,33 @@ ul {
   padding: 0;
 }
 
-.brand {
+
+
+.container-contactos h1 {
+  color: var(--color-cuarto);
   text-align: center;
-	font-weight: 300;
+font-size: 45px;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
+  margin-bottom: 0px;
+
 }
 
-.brand span {
-  color: var(--color-cuarto);
+.container-contactos p{
+  font-size: 16px;
+  text-align: center;
 }
 
 
 /* ------------------- */
 /* COMPANY INFORMATION */
 /* ------------------- */
-
+.company-info img {
+  margin-left: 5vw; /* 5% del ancho de la ventana */
+  margin-top: 8vh; /* 3% de la altura de la ventana */
+  width: 45%; /* 45% del ancho del contenedor */
+  border-radius: 50%; /* Hacerlo perfectamente redondo con 50% de borde */
+}
 .company-info {
 background-color: var(--button-cancel);
 
@@ -1189,6 +1200,7 @@ background-color: var(--button-cancel);
   text-align: center;
   margin: 0 0 1rem 0;
   color: var(--color-cuarto);
+
  
 
 }
@@ -1265,8 +1277,6 @@ background-color: var(--button-cancel);
   padding: 10px;
   z-index: 2;
   margin: 0px;
-  background-image: url(../images/BG/BG-restaurant.jpg);
-
 }
 
 .texto-mapa h3 {
@@ -1288,10 +1298,12 @@ background-color: var(--button-cancel);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 40vh;
   width: 100%;
   overflow: hidden;
   margin-top: 0px;
+
+
 }
 
 .maps-iframe {
