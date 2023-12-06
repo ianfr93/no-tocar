@@ -2,7 +2,10 @@
 /*--------------------------------------------------------------------- 
 import Fonts 
 ---------------------------------------------------------------------*/
-
+@font-face {
+    font-family:"adineue-PRO-Bold";
+    src: url("../fonts/adineue-PRO-Bold.ttf") format("truetype");
+    }
 @font-face {
 font-family:"CormorantInfant-bold";
 src: url("../fonts/CormorantInfant-Bold.ttf");
@@ -61,38 +64,41 @@ span{
 }
 
 h1{
-font-family:"CormorantInfant-bold";
+font-family:"adineue-PRO";
 color:#fff;
 font-size: 50px;
+
+
 }
 
 h2{
-    font-family: "CormorantInfant-semibold";
+    font-family:"adineue-PRO";
     font-size: 40px;
 
 }
 
 h3{
-font-family: "CormorantInfant-semibold";
+    font-family:"adineue-PRO";
 font-size: 30px;
 }
 
 h4 {
-font-family: "CormorantInfant-semibold";
+    font-family:"adineue-PRO";
 font-size: 20px;
+
 }
 h5{
-font-family: "CormorantInfant-medium";
+    font-family:"adineue-PRO";
 font-size: 18px;
 }
 
 h6{
-font-family:"JosefinSans-regular";
+    font-family:"adineue-PRO";
 font-size: 13px;
 }
 
 p{
-font-family: "JosefinSans-regular";
+font-family: "CormorantInfant-semibold";
 color: #fff;
 font-size: 20px;
 
@@ -103,11 +109,13 @@ font-family: "JosefinSans-regular";
 }
 
 .btn{
-font-family:"JosefinSans-medium";
+    font-family: "JosefinSans-semibold";
 }
 
+
+
 .button{
-font-family:"JosefinSans-medium";
+    font-family: "JosefinSans-semibold";
 }
 
 li a{
