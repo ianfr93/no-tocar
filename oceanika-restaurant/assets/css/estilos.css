@@ -1139,18 +1139,13 @@ p{
   margin-top: 30px; /* Ajusta según sea necesario */
  
 }
-p {
+.intro p {
   margin-top: 10px; /* Ajusta según sea necesario */
-
 }
-
-
-
 /** fin nuestros locales **/
 
 
 /** formulario de contacto **/
-
 .container {
   max-width: 1170px;
   margin-left: auto;
