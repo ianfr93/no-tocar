@@ -1076,126 +1076,75 @@ p{
 /** nuestros locales **/
 
 .locales-container {
-background-color: #000;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.44)), url(../images/BG/BG-restaurant.jpg);
+  background-color: #1F242C;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
   justify-content: center; 
-  padding: 10px;
+  padding: 50px;
+
+
 }
 
 .local-card {
-background-color: var(--color-cuarto);
+  background-color: rgba(0, 0, 0, 0.46);
   width: calc(40% - 0px); 
-  margin-bottom: 10px; 
+  margin-bottom: 30px; 
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+
 }
 .local-card img{
   width: 100%;
   height: auto;
   display: block;
   transition: transform 0.3s;
+  margin-bottom: 20px;
 }
 .local-card:hover {
   transform: scale(1.1);
 }
 
-
-.loacales-BG {
-  background-image: url(../images/BG/BG-restaurant.jpg);
-  background-size: cover;
-  background-position: center;
-  max-width: 100%;
-  min-height: 15vh;
-  padding: 100px;
-  margin: 0;
+.local-card h2{
+  font-size: 30px;
+  color: var(--color-cuarto);
+  margin-left: 30px;
 }
 
-.contenedor-tarjetas-orden {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center; 
-  padding: 20px;
-}
-
-.contenedor-tarjetas-contacto h1 {
-  color: #ffffff;
-  text-align: center;
-  margin: 0;
-  padding: 20px 0;
-  margin-top: -90px;
-  font-size: 50px;
-}
-
-.contenedor-tarjetas-contacto p {
-  color: #ffffff;
-  text-align: center;
-  margin: 0;
-  padding: 20px 0;
-  margin-top: -30px;
-}
-
-.tarjeta-info {
-  background-color: #ffffff;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  width: calc(75% - 10px);
-  margin: 0px;
-  padding: 0px;
-  margin-top: 40px;
-  box-sizing: border-box;
-  text-align: center;
-  align-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: row-reverse;
-  height: 215px;
-  max-width: 100%;
-}
-
-.imagen-tarjeta img {
-  width: 573px;
-  height: 100%;
-  margin-top: 5px;
-  object-fit: contain;
-  margin-left: 80px;
-}
-
-.detalle-tarjeta {
-  flex: 3;
-  padding: 20px;
-  text-align: left;
-}
-
-.detalle-tarjeta h3 {
-  margin: 20px 0 0;
-  font-size: 20px;
-  color: var(--size-encabezados);
-}
-
-
-.detalle-tarjeta p {
-  margin-bottom: 10px;
+.local-card p{
   font-size: 16px;
-  color: #292E36;
+  color: var(--color-cuarto);
+  margin-top: -10px;
+  margin-left: 30px;
 }
 
-.detalle-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+.contact-info{
+  color: var(--color-cuarto);
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+.intro {
+  margin-bottom: 10px; /* Ajusta según sea necesario */
+  text-align: center;
 }
 
-.detalle-item i {
-  margin-right: 10px;
-  color: #E1B168;
+.intro h1 {
+  margin-top: 30px; /* Ajusta según sea necesario */
+ 
 }
+p {
+  margin-top: 10px; /* Ajusta según sea necesario */
+
+}
+
+
 
 /** fin nuestros locales **/
 
@@ -2329,6 +2278,11 @@ form {
   margin-top: -57px;
 }
 
+.local-card {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px; /* Ajusta el margen según tus necesidades */
+}
 
 }
 
